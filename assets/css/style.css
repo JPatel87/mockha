@@ -11,15 +11,31 @@ body {
     font-weight: 400;
 }
 
+/* Styling of header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 50px 20px 30px;
+}
+
+/* Styling of navigation items */
+li { 
+    display: inline;
+    letter-spacing: 4px;
+    word-spacing: 50px;
+}
+
 /* Styling of logo */
 #logo {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 400%;
     color: #f8c175;
+    letter-spacing: 5px;
 }
 
-/* Styling of logo sub-logo */
+/* Styling of sub-logo */
 #sub-logo {
     color: #73952e;
 }
@@ -27,4 +43,10 @@ body {
 /* Styling of links */
 a {
     text-decoration: none;
+    color: #73952e;
+}
+
+/* Styling of links using pseudo class */
+a:hover {
+    background-color: #f8c175;
 }
