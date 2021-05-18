@@ -51,10 +51,37 @@ a.highlight:hover {
     background-color: #f8c175;
 }
 
-/* Styling of hero image*/
+/* Styling of hero image section */
+#hero-image-section {
+    position: relative;
+}
+
+/* Styling of hero image */
 #hero-image {
     height: 600px;
     background: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Styling of hero-image-text*/
+#hero-image-text > h2 {
+    color: #73952e;
+    text-transform: capitalize;
+    font-size: 130%;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 364px;
+    height: 50px;
+
+    padding: 40px;
+
+    background-color: rgba(248,193,117,.5);
+
+    top: 30px;
+    right: 20px;
+
+    position: absolute;
 }
