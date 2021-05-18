@@ -47,6 +47,6 @@ a {
 }
 
 /* Styling of links using pseudo class */
-a:hover {
+a.highlight:hover {
     background-color: #f8c175;
 }
