@@ -20,7 +20,7 @@ header {
 }
 
 /* Styling of navigation items */
-li { 
+#menu-items > li { 
     display: inline;
     letter-spacing: 4px;
     word-spacing: 50px;
