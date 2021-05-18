@@ -11,9 +11,14 @@ body {
     font-weight: 400;
 }
 
+/* Styling of logo */
 #logo {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     font-size: 400%;
     color: #f8c175;
+}
+
+a {
+    text-decoration: none;
 }
