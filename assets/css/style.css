@@ -50,3 +50,11 @@ a {
 a.highlight:hover {
     background-color: #f8c175;
 }
+
+/* Styling of hero image*/
+#hero-image {
+    height: 600px;
+    background: url('../images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
