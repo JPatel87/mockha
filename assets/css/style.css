@@ -113,4 +113,75 @@ a.highlight:hover {
 .menu-items h2 {
     text-align: center;
 }
-    
+
+/* Styling of footer */
+footer {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+/* Styling of contact in footer */
+#contact {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+
+#contact h3 {
+    color: #73952e;
+}
+
+#contact a {
+    font-style: normal;
+    color: #523a28;
+}
+
+/* Styling of logo in footer */
+#footer-logo {
+    height: 100px;
+    width: 200px;
+    display:inline-block;
+}
+
+#footer-logo h2 {
+    color: #f8c175;
+    text-align: center;
+}
+
+#footer-logo h3 {
+    color: #73952e;
+    text-align: center;
+}
+
+#footer-logo p {
+    color: #523a28;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Styling of social media links in footer */
+#social-media {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+}
+
+#social-media h3 {
+    color: #73952e;
+    text-align: center;
+}
+
+#social-media ul {
+    text-align: center;
+}
+
+#social-media li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#social-media a {
+    color: #523a28;
+    margin: 10px;
+}
