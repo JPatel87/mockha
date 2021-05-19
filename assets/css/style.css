@@ -87,17 +87,30 @@ a.highlight:hover {
     position: absolute;
 
 }
+/* Styling of cake and coffee section */
+
+#menu {
+    height: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
 
 /* Styling of cake and coffee divs */
+
 .menu-items {
     display: inline-block;
-    text-align: center;
+    height: 500px;
+    width: 400px;
 }
 
 /* Styling of cake and coffee images */
 .menu-items img {
-    display: inline-block;
-    height: 430px;
-    width: 430px;
-    padding: 30px;
+    height: 400px;
+    width: 400px;
 }
+
+/* Styling of cake and coffee h2 */
+.menu-items h2 {
+    text-align: center;
+}
+    
