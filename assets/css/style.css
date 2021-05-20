@@ -42,7 +42,8 @@ header {
 /* Styling of sub-logo */
 #sub-logo {
     color: #73952e;
-    font-family: Montserrat, sans-serif
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
 }
 
 /* Styling of links */
@@ -142,7 +143,6 @@ footer h3 {
     font-size: 20px;
     padding-bottom: 10px;
     letter-spacing: 2px;
-    
 }
 
 footer p {
