@@ -121,34 +121,41 @@ a.highlight:hover {
 /* Styling of footer */
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 20px;
 }
 
 footer div {
     text-align: center;
-    width: 500px;
+    width: 800px;
 }
 
 footer h2 {
     color: #f8c175;
+    font-size: 50px;
+    letter-spacing: 5px;
 }
 
 footer h3 {
     color: #73952e;
+    font-size: 20px;
     padding-bottom: 10px;
+    letter-spacing: 2px;
+    
 }
 
 footer p {
     font-size: 10px;
 }
-footer li {
-    list-style-type: none;
-    display: inline-block;
 
-}footer a {
+.footer-links {
     color: #523a28;
-    margin: 10px;
+    margin: 20px;
     font-size: 20px;
 }
 
+footer li {
+    list-style-type: none;
+    display: inline-block;
+}
