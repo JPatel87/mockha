@@ -20,19 +20,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 20px;
+    margin: 30px;
 }
 
 /* Styling of navigation items */
-#menu-items > li { 
+nav li { 
     display: inline;
     letter-spacing: 4px;
     word-spacing: 50px;
 }
 
 /* Styling of logo */
-#logo {
-    font-family: Montserrat, sans-serif;
+header h1 {
     font-weight: 500;
     font-size: 400%;
     color: #f8c175;
@@ -40,16 +39,15 @@ header {
 }
 
 /* Styling of sub-logo */
-#sub-logo {
+header h2 {
     color: #73952e;
-    font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
 }
 
 /* Styling of links */
 a {
     text-decoration: none;
-    color: #73952e;
+    color: #523a28;
 }
 
 /* Styling of links using pseudo class */
@@ -60,6 +58,8 @@ a.highlight:hover {
 /* Styling of hero image section */
 #hero-image-section {
     position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* Styling of hero image */
@@ -124,7 +124,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 footer div {
