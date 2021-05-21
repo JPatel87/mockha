@@ -154,3 +154,7 @@ footer li {
     list-style-type: none;
     display: inline-block;
 }
+
+footer span {
+    font-style: normal;
+}
