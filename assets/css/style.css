@@ -44,26 +44,26 @@ header h2 {
     letter-spacing: 2px;
 }
 
-/* Styling of links */
+/* Styling of navigation links */
 a {
     text-decoration: none;
     color: #523a28;
 }
 
-/* Styling of links using pseudo class */
+/* Styling of navigation links using pseudo class */
 a.highlight:hover {
     background-color: #f8c175;
 }
 
 /* Styling of hero image section */
-#hero-image-section {
+.hero-image-section {
     position: relative;
     margin-left: 30px;
     margin-right: 30px;
 }
 
 /* Styling of hero image */
-#hero-image {
+.hero-image {
     height: 600px;
     background: url('../images/hero-image.jpg');
     background-repeat: no-repeat;
@@ -71,27 +71,22 @@ a.highlight:hover {
 }
 
 /* Styling of hero-image-text*/
-#hero-image-text > h2 {
-    color: #73952e;
-    text-transform: capitalize;
-    font-size: 130%;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 4px;
-    text-align: center;
-
-    width: 364px;
-    height: 50px;
-
-    padding: 40px;
-
-    background-color: rgba(248,193,117,.5);
-
-    top: 30px;
-    right: 20px;
-
-    position: absolute;
-
+.hero-image > div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0 30px 30px;
 }
+
+.hero-image h2 {
+    color: #523a28;
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(248,193,117,.5);
+    padding: 20px;
+}
+
 /* Styling of cake and coffee section */
 
 #menu {
