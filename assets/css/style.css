@@ -95,21 +95,21 @@ a.highlight:hover {
     margin-top: 30px;
 }
 
-.product-images div {
+.product-images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     position: relative;
 }
 
 .product-images img {
     height: 500px;
     width: 500px;
-    padding: 30px;
 }
 
-.cake, .coffee {
+.cake-button, .coffee-button {
     position:absolute;
     letter-spacing: 2px;
     color: #523a28;
@@ -117,24 +117,31 @@ a.highlight:hover {
     font-size: 30px;
 }
 
-.cake {
+.cake-button {
     left: 100px;
     top: 100px;
 }
 
-.coffee {
+.coffee-button {
     right: 90px;
     top: 100px;
 }
 
-.cake:hover {
+.cake-button:hover {
     background-color: #73952e;
 }
 
-.coffee:hover {
+.coffee-button:hover {
     background-color: #73952e;
 }
  
+.product-reviews {
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    background-color: rgba(248, 193, 117, .5);
+    padding: 20px;
+}
 /* Styling of footer */
 footer {
     display: flex;
