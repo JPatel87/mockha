@@ -186,3 +186,25 @@ footer li {
 footer span {
     font-style: normal;
 }
+
+/* Styling of About section in About page */
+.about {
+    display: inline-block;
+    margin: 30px;
+}
+
+.about-us {
+    display:inline-block;
+}
+
+.about-us img {
+    float: left;
+    max-height: 400px;
+}
+
+.about-us p {
+    display: inline-block;
+    font-size: 20px;
+    max-width: 850px;
+    padding-left: 20px;
+}
