@@ -235,6 +235,10 @@ header {
     width: 100%;
 }
 
+nav {
+    padding-bottom: 10px;
+}
+
 nav ul {
     text-align: center;
 }
@@ -242,8 +246,6 @@ nav ul {
 nav li {
     display: inline;
     letter-spacing: 3px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 header h1 {
@@ -260,11 +262,20 @@ header h2 {
     text-align: center;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: #523a28;
 }
 
 a.highlight:hover {
+    background-color: #f8c175;
+}
+
+/* Styling of section 1, menu page */
+.heading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    width: 100%;
     background-color: #f8c175;
 }
