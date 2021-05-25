@@ -300,3 +300,25 @@ a.highlight:hover {
     background-color: #f8c175;
     padding: 5px;
 }
+.cake-types {
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    padding: 5px;
+    color: #523a28;
+    text-transform: capitalize;
+}
+
+.cake-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cake-types h4, p {
+    background-color: rgba(115,149,46,0.5);
+}
+
+.cake-types li {
+    list-style-type: none;
+}
