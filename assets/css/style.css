@@ -271,11 +271,22 @@ a.highlight:hover {
     background-color: #f8c175;
 }
 
-/* Styling of section 1, menu page */
-.heading {
+/* Styling of section one, menu page */
+.menu-section {
+    max-height: 500px;
+    overflow: hidden;
+
+}
+
+.menu-heading {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
     width: 100%;
     background-color: #f8c175;
 }
+
+.menu-image {
+    width: 100%;
+}
+
