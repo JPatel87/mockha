@@ -272,15 +272,10 @@ a.highlight:hover {
 }
 
 /* Styling of section one, menu page */
-.menu-section {
-    max-height: 500px;
-    overflow: hidden;
-
-}
 
 .menu-heading {
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: #523a28;
     width: 100%;
     background-color: #f8c175;
@@ -296,22 +291,22 @@ a.highlight:hover {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
-    width: 100%;
     background-color: #f8c175;
+    margin: 10px;
     padding: 5px;
 }
 .cake-types {
     width: 40%;
     height: 50%;
     text-align: center;
-    padding: 5px;
+    padding: 0, 5px, 5px, 5px;
     color: #523a28;
     text-transform: capitalize;
 }
 
 .cake-wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
 }
 
