@@ -284,9 +284,19 @@ a.highlight:hover {
     color: #523a28;
     width: 100%;
     background-color: #f8c175;
+    padding: 5px;
 }
 
 .menu-image {
     width: 100%;
 }
 
+/* Styling of section two, menu page */
+.cakes-heading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    width: 100%;
+    background-color: #f8c175;
+    padding: 5px;
+}
