@@ -274,7 +274,7 @@ a.highlight:hover {
 }
 
 /* Styling of section one, menu page */
-.menu-heading {
+.page-heading {
     text-align: center;
     text-transform: uppercase;
     color: #523a28;
@@ -316,7 +316,11 @@ a.highlight:hover {
     padding: 10px;
 }
 
-.cake-types h4, {
+.cake-types h4 {
+    background-color: rgba(115, 149, 46, 0.5);
+}
+
+.cake-types p {
     background-color: rgba(115, 149, 46, 0.5);
 }
 
@@ -424,7 +428,7 @@ footer>p {
 
 /* Styling of form in reserve page */
 
-fieldset {
+form {
     text-align: center;
 }
 
