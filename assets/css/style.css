@@ -421,3 +421,15 @@ footer>p {
     color: #523a28;
     text-transform: capitalize;
 }
+
+/* Styling of form in reserve page */
+
+fieldset {
+    text-align: center;
+}
+
+input[type=text],[type=email],[type=number] {
+    border: 1px solid #523a28;;
+    width: 50%;
+
+}
