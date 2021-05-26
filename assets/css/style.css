@@ -316,8 +316,7 @@ a.highlight:hover {
     padding: 10px;
 }
 
-.cake-types h4,
-p {
+.cake-types h4, {
     background-color: rgba(115, 149, 46, 0.5);
 }
 

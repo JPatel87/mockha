@@ -34,7 +34,56 @@
             </ul>
         </nav>
     </header>
-    <form action=""></form>
+
+        <form action="" method="POST">
+            <fieldset>
+                <legend>reservation form</legend>
+                <label for="first-name">first name</label>
+                <input id="first-name" name="first-name" type="text" placeholder="e.g. Mark">
+
+                <label for="last-name">last name</label>
+                <input id="last-name" name="last-name" type="text" placeholder="e.g. Rodger">
+
+                <label for="phone-number">last name</label>
+                <input id="phone-number" name="phone-number" type="number" placeholder="e.g. 01225 946276">
+
+                <label for="email">email</label>
+                <input id="email" name="email" type="email" placeholder="e.g. markrodger@gmail.com">
+
+                <label for="reservation-date">reservation date</label>
+                <input id="reservation-date" name="reservation-date" type="date">
+
+                <label for="reservation-time">reservation time</label>
+                <input id="reservation-time" name="reservation-time" type="time">
+
+                <label for="guests">no.of people</label>
+                <select id="guests" name="guest-number">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+
+                <label for="additional-details">Anything else we need to know...</label>
+                <textarea id="additional-details" name="additional-details" placeholder="e.g allergies, celebration, table location preference" rows="6"
+                    cols="30"></textarea>
+
+                <p>how did you hear about us?</p>
+                <label for="google-search">google search</label>
+                <input id="google-search" name="marketing-media" type="checkbox" value="google search">
+                <label for="word-of-mouth">word of mouth</label>
+                <input id="word-of-mouth" name="marketing-media" type="checkbox" value="word of mouth">
+                <label for="newspaper">newspaper</label>
+                <input id="newspaper" name="marketing-media" type="checkbox" value="newspaper">
+                <label for="facebook">facebook</label>
+                <input id="facebook" name="marketing-media" type="checkbox" value="facebook">
+                <label for="instagram">instagram</label>
+                <input id="instagram" name="marketing-media" type="checkbox" value="instagram">
+                <label for="twitter">twitter</label>
+                <input id="twitter" name="marketing-media" type="checkbox" value="twitter">
+            </fieldset>
+    </form>
     <footer>
         <div>
             <h1>mockha</h1>
