@@ -249,17 +249,19 @@ nav li {
 }
 
 header h1 {
-    color: #f8c175;
+    color: #523a28;
     letter-spacing: 5px;
-    margin: 10px 10px 0 10px;
     text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
 }
 
 header h2 {
     color: #73952e;
     letter-spacing: 2px;
-    margin: 0px 10px 10px 10px;
+    margin-bottom: 10px;
     text-align: center;
+    text-transform: capitalize;
 }
 
 nav a {
@@ -268,17 +270,16 @@ nav a {
 }
 
 a.highlight:hover {
-    background-color: #f8c175;
+    background-color: rgba(248, 193, 117, 0.8);
 }
 
 /* Styling of section one, menu page */
-
 .menu-heading {
     text-align: center;
     text-transform: uppercase;
     color: #523a28;
     width: 100%;
-    background-color: #f8c175;
+    background-color: rgba(248, 193, 117, 0.8);
     padding: 5px;
 }
 
@@ -291,7 +292,7 @@ a.highlight:hover {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
-    background-color: #f8c175;
+    background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
 }
@@ -304,7 +305,7 @@ a.highlight:hover {
     width: 40%;
     height: 50%;
     text-align: center;
-    padding: 0, 5px, 5px, 5px;
+    padding: 0 5px 5px 5px;
     color: #523a28;
     text-transform: capitalize;
 }
@@ -315,8 +316,9 @@ a.highlight:hover {
     padding: 10px;
 }
 
-.cake-types h4, p {
-    background-color: rgba(115,149,46,0.5);
+.cake-types h4,
+p {
+    background-color: rgba(115, 149, 46, 0.5);
 }
 
 .cake-types li {
@@ -328,26 +330,22 @@ a.highlight:hover {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
-    background-color: #f8c175;
+    background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
-}
-
-.coffee-heading > table {
-    border-style: solid;
-    border-color: #523a28;
 }
 
 .coffee-table {
     display: flex;
     justify-content: center;
     border-spacing: 10px;
+    margin-bottom: 20px;
 }
 
 table th {
     text-align: center;
-    background-color: rgba(115,149,46,0.5);
-    padding: 0, 5px, 5px, 0;
+    background-color: rgba(115, 149, 46, 0.5);
+    padding: 0 5px 5px 0;
     text-transform: capitalize;
     width: 100px;
     color: #523a28;
@@ -357,4 +355,70 @@ table tr {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
+}
+
+/* Styling of footer */
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(248, 193, 117, 0.8)
+}
+
+footer h1 {
+    color: #523a28;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+footer h2 {
+    color: #73952e;
+    letter-spacing: 2px;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+footer address {
+    text-align: center;
+    font-style: normal;
+    color: #523a28;
+}
+
+address>span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer i {
+    font-size: 20px;
+}
+
+footer ul {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-media {
+    color: #523a28;
+    margin: 20px;
+    text-align: center;
+}
+
+footer>p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #523a28;
+    text-transform: capitalize;
 }
