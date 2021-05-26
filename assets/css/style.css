@@ -295,6 +295,11 @@ a.highlight:hover {
     margin: 10px;
     padding: 5px;
 }
+
+.cake-section {
+    width: 100%;
+}
+
 .cake-types {
     width: 40%;
     height: 50%;
@@ -316,4 +321,36 @@ a.highlight:hover {
 
 .cake-types li {
     list-style-type: none;
+}
+
+/* Styling of section three, menu page */
+.coffee-heading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    background-color: #f8c175;
+    margin: 10px;
+    padding: 5px;
+}
+
+.coffee-heading > table {
+    border-style: solid;
+    border-color: #523a28;
+}
+
+.coffee-table {
+    display: flex;
+    justify-content: center;
+}
+
+table th {
+    text-align: center;
+    background-color: rgba(115,149,46,0.5);
+    padding: 0, 5px, 5px, 5px;
+    text-transform: capitalize;
+    width: 100%;
+}
+table tr {
+    text-align: center;
+    text-transform: capitalize;
 }
