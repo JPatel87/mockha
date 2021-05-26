@@ -341,16 +341,20 @@ a.highlight:hover {
 .coffee-table {
     display: flex;
     justify-content: center;
+    border-spacing: 10px;
 }
 
 table th {
     text-align: center;
     background-color: rgba(115,149,46,0.5);
-    padding: 0, 5px, 5px, 5px;
+    padding: 0, 5px, 5px, 0;
     text-transform: capitalize;
-    width: 100%;
+    width: 100px;
+    color: #523a28;
 }
+
 table tr {
     text-align: center;
     text-transform: capitalize;
+    color: #523a28;
 }
