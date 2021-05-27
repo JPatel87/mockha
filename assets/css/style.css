@@ -40,7 +40,6 @@ nav li {
     padding-right: 10px;
     padding-left: 10px; 
     background-color: #ccb99f;
-    border: 1px solid #523a28;
 }
 
 header h1 {
@@ -65,7 +64,11 @@ nav a {
 }
 
 a.highlight:hover {
-    background-color: rgba(248, 193, 117, 0.8);
+    background-color: #73952e;
+}
+
+.active {
+    border-bottom: 2px solid #523a28;
 }
 
 /* Styling of section one, index page */
