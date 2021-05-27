@@ -26,7 +26,8 @@ header {
 }
 
 nav {
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
+    width: 100%;
 }
 
 nav ul {
@@ -36,6 +37,10 @@ nav ul {
 nav li {
     display: inline;
     letter-spacing: 3px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    background-color: #ccb99f;
+    border: 1px solid #523a28;
 }
 
 header h1 {
