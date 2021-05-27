@@ -10,6 +10,8 @@ Mockha is a site targeting consumers who are willing to explore vegan cake and c
     * Navigation menu 
         * The navigation menu appears consistently on all four pages of the web site allowing users to easily navigate to the four different pages of the website, namely Home, About, Menu and Reserve.
 
+![Logo and navigation menu](https://user-images.githubusercontent.com/81622155/119902036-9db9a900-bf3e-11eb-9304-2f223b36a357.png)
+
 * Footer 
     * Logo
         * The logo is present again in the footer as a reminder of the bakery name.
