@@ -6,13 +6,14 @@ Mockha is a site targeting consumers who are willing to explore vegan cake and c
 
 * Header
     * Logo
-        * The logo consists of the company name and a subheading  which gives users an idea about the content of the website at a glance. The logo appears consistently across all pages.
+        * The logo consists of the company name (color; brown #523a28) and a subheading (color; kelly greeen #73952e) which gives users an idea about the content of the website at a glance. The logo appears consistently across all pages.
     * Navigation menu 
-        * The navigation menu appears consistently on all four pages of the web site allowing users to easily navigate to the four different pages of the website, namely Home, About, Menu and Reserve.
+        * The navigation menu appears consistently on all four pages of the web site allowing users to easily navigate to the four different pages of the website namely; Home, About, Menu and Reserve.
+        * The navigation menu strip is highlighted with a background colour (color; khaki, #ccb99f) and when a user is on a particular page, that navigation name will be underlined in a darker colour (color; brown #523a28). Additionally, when a user hovers over a navigation item, this action will result in the item changing colour upon hover (color; kelly green #73952e). 
 
 
 
-   ![Logo and navigation menu](https://user-images.githubusercontent.com/81622155/119903628-e2464400-bf40-11eb-8330-334fcc8f35c8.png)
+   ![Logo and navigation menu](assets/readme_img/logo-and-navigation-menu.png)
 
 
 
