@@ -175,11 +175,22 @@ footer>p {
 }
 
 /* Styling of section three, about page */
-
 .contact-us {
     text-align: center;
     width: 100%;
 }
+
+/* Styling of section four, about page */
+
+.location-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.location-details h3 {
+    background-color: rgba(115, 149, 46, 0.5);
+    
 
 /* Styling of section one, menu page */
 .menu-image {
