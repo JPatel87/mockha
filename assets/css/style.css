@@ -180,17 +180,16 @@ footer>p {
     width: 100%;
 }
 
-/* Styling of section four, about page */
-
-.location-details {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+/* Styling of div two (location details), section three, about page */
+.location h3 {
+    background-color: rgba(115, 149, 46, 0.5);
+    margin: 10px;
+    padding: 5px;
 }
 
-.location-details h3 {
-    background-color: rgba(115, 149, 46, 0.5);
-    
+.location address {
+    font-style: normal;
+}
 
 /* Styling of section one, menu page */
 .menu-image {
