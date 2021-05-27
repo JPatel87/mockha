@@ -182,13 +182,32 @@ footer>p {
 
 /* Styling of div two (location details), section three, about page */
 .location h3 {
-    background-color: rgba(115, 149, 46, 0.5);
+    background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
+    text-transform: capitalize;
+    color: #523a28;
 }
 
 .location address {
     font-style: normal;
+    color: #523a28;
+}
+
+/* Styling of div three (opening times), section three, about page */
+.opening-times h3 {
+    background-color: rgba(248, 193, 117, 0.8);
+    margin: 10px;
+    padding: 5px;
+    text-transform: capitalize;
+    color: #523a28;
+}
+
+.opening-times-table {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 300px;
+    border-spacing: 10px;
 }
 
 /* Styling of section one, menu page */
@@ -269,9 +288,7 @@ table tr {
     color: #523a28;
 }
 
-
 /* Styling of fieldset one in form in reserve page */
-
 fieldset {
     text-align: left;
     margin: 10px;
