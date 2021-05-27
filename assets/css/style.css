@@ -174,8 +174,14 @@ footer>p {
     padding: 5px;
 }
 
-/* Styling of section one, menu page */
+/* Styling of section three, about page */
 
+.contact-us {
+    text-align: center;
+    width: 100%;
+}
+
+/* Styling of section one, menu page */
 .menu-image {
     width: 100%;
 }
