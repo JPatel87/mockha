@@ -66,16 +66,9 @@ a.highlight:hover {
 /* Styling of section one, index page */
 .hero-image {
     width: 100%;
-    position: relative;
 }
 
-.hero-image-text {
-    position: absolute;
-    bottom: 77%;
-    left: 12%;
-    background-color: rgba(248, 193, 117, 0.8);
-    text-transform: capitalize;
-}
+
 
 /* Styling of section one, menu page */
 .page-heading {
