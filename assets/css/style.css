@@ -88,7 +88,7 @@ a.highlight:hover {
     padding: 5px;
 }
 
-.home-images {
+.mockha-images {
     width: 100%;
 }
 
@@ -166,6 +166,12 @@ footer>p {
     font-size: 10px;
     color: #523a28;
     text-transform: capitalize;
+}
+
+/* Styling of section two, about page */
+.about-us {
+    margin: 10px;
+    padding: 5px;
 }
 
 /* Styling of section one, menu page */
