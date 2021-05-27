@@ -92,11 +92,6 @@ a.highlight:hover {
     width: 100%;
 }
 
-/* Styling of footer, index page */
-
-
-
-
 /* Styling of section three, index page */
 .review {
     text-align: center;
@@ -105,6 +100,72 @@ a.highlight:hover {
     background-color: rgba(115, 149, 46, 0.5);
     margin: 10px;
     padding: 5px;
+}
+
+/* Styling of footer */
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(248, 193, 117, 0.8);
+}
+
+footer h1 {
+    color: #523a28;
+    letter-spacing: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+footer h2 {
+    color: #73952e;
+    letter-spacing: 2px;
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+footer address {
+    text-align: center;
+    font-style: normal;
+    color: #523a28;
+}
+
+address>span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer i {
+    font-size: 20px;
+}
+
+footer ul {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer-media {
+    color: #523a28;
+    margin: 20px;
+    text-align: center;
+}
+
+footer>p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #523a28;
+    text-transform: capitalize;
 }
 
 /* Styling of section one, menu page */
@@ -186,71 +247,6 @@ table tr {
     color: #523a28;
 }
 
-/* Styling of footer */
-footer {
-    display: inline-block;
-    width: 100%;
-    background-color: rgba(248, 193, 117, 0.8);
-}
-
-footer h1 {
-    color: #523a28;
-    letter-spacing: 5px;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    text-transform: capitalize;
-}
-
-footer h2 {
-    color: #73952e;
-    letter-spacing: 2px;
-    margin: 0px 10px 10px 10px;
-    text-align: center;
-    margin-bottom: 10px;
-    text-transform: capitalize;
-}
-
-footer address {
-    text-align: center;
-    font-style: normal;
-    color: #523a28;
-}
-
-address>span {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-footer i {
-    font-size: 20px;
-}
-
-footer ul {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-footer li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.footer-media {
-    color: #523a28;
-    margin: 20px;
-    text-align: center;
-}
-
-footer>p {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 10px;
-    color: #523a28;
-    text-transform: capitalize;
-}
 
 /* Styling of fieldset one in form in reserve page */
 
