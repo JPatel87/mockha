@@ -68,17 +68,46 @@ a.highlight:hover {
     width: 100%;
 }
 
-
-
-/* Styling of section one, menu page */
 .page-heading {
     text-align: center;
     text-transform: uppercase;
     color: #523a28;
     width: 100%;
     background-color: rgba(248, 193, 117, 0.8);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Styling of section two, index page */
+.page-subheading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    background-color: rgba(248, 193, 117, 0.8);
+    margin: 10px;
     padding: 5px;
 }
+
+.home-images {
+    width: 100%;
+}
+
+/* Styling of footer, index page */
+
+
+
+
+/* Styling of section three, index page */
+.review {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    background-color: rgba(115, 149, 46, 0.5);
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Styling of section one, menu page */
 
 .menu-image {
     width: 100%;
