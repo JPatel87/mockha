@@ -364,7 +364,7 @@ table tr {
 footer {
     display: inline-block;
     width: 100%;
-    background-color: rgba(248, 193, 117, 0.8)
+    background-color: rgba(248, 193, 117, 0.8);
 }
 
 footer h1 {
@@ -428,12 +428,51 @@ footer>p {
 
 /* Styling of form in reserve page */
 
-form {
+fieldset {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: rgba(115, 149, 46, 0.5);
+    border: solid;
+}
+
+legend {
+    background-color: rgba(248, 193, 117, 1);
     text-align: center;
 }
 
-input[type=text],[type=email],[type=number] {
-    border: 1px solid #523a28;;
+label {
+    font-size: 1em;
+    vertical-align: middle;
+    color: #523a28;
+    display: inline-block;
+    width: 150px;
+}
+
+input[type=text],[type=number] {
+    border: 1px solid #523a28;
+    width: 35%;
+}
+
+input[type=email] {
+    border: 1px solid #523a28;
     width: 50%;
 
+}
+input[type=date],[type=time] {
+    border: 1px solid #523a28;
+    width: 25%
+}
+
+#guests {
+    border: 1px solid #523a28;
+}
+
+fieldset p {
+    font-size: 1em;
+    vertical-align: middle;
+    color: #523a28;
+    display: inline-block;
+    width: 200px;
 }

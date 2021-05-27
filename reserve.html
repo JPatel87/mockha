@@ -34,58 +34,62 @@
             </ul>
         </nav>
     </header>
+    <section>
+        <h3 class="page-heading"><strong>reserve</strong></h3>
+        <form action="" method="POST"></form>
+            <fieldset>
+                <legend>booking details</legend>
+                    <label for="first-name">first name:</label>
+                    <input id="first-name" name="name" type="text" placeholder="e.g. Mark"><br>
 
-    <form action="" method="POST">
-        <fieldset>
-            <legend>reservation form</legend>
-            <label for="first-name">first name:</label>
-            <input id="first-name" name="first-name" type="text" placeholder="e.g. Mark"><br>
+                    <label for="last-name">last name:</label>
+                    <input id="last-name" name="name" type="text" placeholder="e.g. Rodger"><br>
 
-            <label for="last-name">last name:</label>
-            <input id="last-name" name="last-name" type="text" placeholder="e.g. Rodger"><br>
+                    <label for="phone-number">telephone:</label>
+                    <input id="phone-number" name="phone-number" type="number" placeholder="e.g. 01225 946276"><br>
 
-            <label for="phone-number">tel:</label>
-            <input id="phone-number" name="phone-number" type="number" placeholder="e.g. 01225 946276"><br>
+                    <label for="email">email address:</label>
+                    <input id="email" name="email" type="email" placeholder="e.g. markrodger@gmail.com"><br>
 
-            <label for="email">email:</label>
-            <input id="email" name="email" type="email" placeholder="e.g. markrodger@gmail.com"><br>
+                     <label for="guests">no.of people:</label>
+                    <select id="guests" name="guest-number">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select><br>
 
-            <label for="reservation-date">date:</label>
-            <input id="reservation-date" name="reservation-date" type="date">
+                    <label for="reservation-date">date:</label>
+                    <input id="reservation-date" name="reservation-date" type="date">
 
-            <label for="reservation-time">time:</label>
-            <input id="reservation-time" name="reservation-time" type="time"><br>
+                    <label for="reservation-time">time:</label>
+                    <input id="reservation-time" name="reservation-time" type="time"><br>
 
-            <label for="guests">no.of people:</label>
-            <select id="guests" name="guest-number">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select><br>
-            <br>
-            <label for="additional-details">Anything else we need to know...</label>
-            <textarea id="additional-details" name="additional-details"
-                    placeholder="e.g allergies, celebration, table location preference" rows="6" cols="30"></textarea><br>
-            <p>how did you hear about us?</p>
-            <label for="google-search">google search</label>
-            <input id="google-search" name="marketing-media" type="checkbox" value="google search">
-            <label for="word-of-mouth">word of mouth</label>
-            <input id="word-of-mouth" name="marketing-media" type="checkbox" value="word of mouth">
-            <label for="newspaper">newspaper</label>
-            <input id="newspaper" name="marketing-media" type="checkbox" value="newspaper">
-            <label for="facebook">facebook</label>
-            <input id="facebook" name="marketing-media" type="checkbox" value="facebook">
-            <label for="instagram">instagram</label>
-            <input id="instagram" name="marketing-media" type="checkbox" value="instagram">
-            <label for="twitter">twitter</label>
-            <input id="twitter" name="marketing-media" type="checkbox" value="twitter"><br>
-
-            <input type="submit" value="reserve">
-        </fieldset>
-    </form>
+                    <label for="additional-details">additional details</label>
+                    <textarea id="additional-details" name="additional-details"
+                            placeholder="e.g allergies, celebration, table location preference" rows="4" cols="34"></textarea><br>
+            </fieldset>
+            <fieldset>
+                <legend>short survey</legend>
+                    <p>how did you find us?</p>
+                    <label for="google-search">google search</label>
+                    <input id="google-search" name="marketing-media" type="checkbox" value="google search">
+                    <label for="word-of-mouth">word of mouth</label>
+                    <input id="word-of-mouth" name="marketing-media" type="checkbox" value="word of mouth">
+                    <label for="newspaper">newspaper</label>
+                    <input id="newspaper" name="marketing-media" type="checkbox" value="newspaper">
+                    <label for="facebook">facebook</label>
+                    <input id="facebook" name="marketing-media" type="checkbox" value="facebook">
+                    <label for="instagram">instagram</label>
+                    <input id="instagram" name="marketing-media" type="checkbox" value="instagram">
+                    <label for="twitter">twitter</label>
+                    <input id="twitter" name="marketing-media" type="checkbox" value="twitter"><br>
+                    <input type="submit" value="reserve">
+            </fieldset>
+        </form>
+    </section>
     <footer>
         <div>
             <h1>mockha</h1>
