@@ -200,9 +200,7 @@ footer>p {
 /* Styling of section three, index page */
 .review {
     text-align: center;
-    text-transform: capitalize;
     color: #523a28;
-    background-color: rgba(115, 149, 46, 0.5);
     margin-top: 15px;
     padding: 5px;
 }
@@ -245,6 +243,7 @@ footer>p {
     margin: auto;
     margin-bottom: 10px;
     width: 250px;
+    color: #523a28;
 }
 
 .opening-times-header {
