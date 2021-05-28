@@ -209,32 +209,21 @@ footer>p {
 }
 
 /* Styling of section three, about page */
-.contact-us {
+.find-us {
     text-align: center;
-    width: 100%;
 }
 
-/* Styling of div two (location details), section three, about page */
-.location h5 {
-    background-color: rgba(248, 193, 117, 0.8);
-    margin: 10px;
-    padding: 5px;
-    text-transform: capitalize;
-    color: #523a28;
-}
-
-.location address {
+.location {
     font-style: normal;
     color: #523a28;
+    padding-top: 10px;
+    text-align: center;
 }
 
 /* Styling of div three (opening times), section three, about page */
-.opening-times h5 {
-    background-color: rgba(248, 193, 117, 0.8);
-    margin: 10px;
-    padding: 5px;
-    text-transform: capitalize;
-    color: #523a28;
+
+.opening-times {
+    text-align: center;
 }
 
 .opening-times-table {
