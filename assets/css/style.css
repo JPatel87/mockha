@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway&display=swap');
 
 /* Generic styling */
 * {
@@ -17,11 +17,6 @@ h2,
 h3,
 h4 {
     font-family: Montserrat, sans-serif;
-    font-weight: 500;
-}
-
-strong {
-    font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
 
@@ -32,7 +27,7 @@ header {
 }
 
 nav {
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
     width: 100%;
 }
 
@@ -44,7 +39,7 @@ nav li {
     display: inline;
     letter-spacing: 3px;
     padding-right: 10px;
-    padding-left: 10px; 
+    padding-left: 10px;
     background-color: #ccb99f;
 }
 
@@ -120,7 +115,7 @@ a.highlight:hover {
 footer {
     display: inline-block;
     width: 100%;
-    background-color: rgba(248, 193, 117, 0.8);
+    background-color: #ccb99f;
 }
 
 footer h1 {
@@ -325,7 +320,8 @@ label {
     width: 150px;
 }
 
-input[type=text],[type=number] {
+input[type=text],
+[type=number] {
     border: 1px solid #523a28;
     width: 35%;
 }
@@ -335,7 +331,9 @@ input[type=email] {
     width: 50%;
 
 }
-input[type=date],[type=time] {
+
+input[type=date],
+[type=time] {
     border: 1px solid #523a28;
     width: 25%
 }
@@ -384,13 +382,15 @@ input[type=checkbox] {
     margin-right: 10px;
     margin-left: 10px;
 }
+
 input[type=radio] {
     vertical-align: middle;
     position: relative;
     bottom: 1px;
     margin-right: 10px;
-    margin-left: 10px;;
-} 
+    margin-left: 10px;
+    ;
+}
 
 input[type=submit] {
     position: relative;
