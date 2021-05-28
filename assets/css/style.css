@@ -70,6 +70,7 @@ nav li {
     letter-spacing: 3px;
     padding: 5px 10px 5px 10px;
     background-color: #ccb99f;
+    text-transform: capitalize;
 }
 
 header h1 {
@@ -101,6 +102,28 @@ a.highlight:hover {
     border-bottom: 2px solid #523a28;
 }
 
+.page-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #523a28;
+    width: 100%;
+    background-color: rgba(248, 193, 117, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.page-subheading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    width: 100%;
+    background-color: rgba(115, 149, 46, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+}
 
 /* Styling of footer*/
 footer h1 {
@@ -167,30 +190,7 @@ footer>p {
     width: 100%;
 }
 
-.page-heading {
-    text-align: center;
-    text-transform: uppercase;
-    color: #523a28;
-    width: 100%;
-    background-color: rgba(248, 193, 117, 0.8);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 17px;
-}
-
 /* Styling of section two, index page */
-.page-subheading {
-    text-align: center;
-    text-transform: capitalize;
-    color: #523a28;
-    width: 100%;
-    background-color: rgba(115, 149, 46, 0.6);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 15px;
-    margin-top: 15px;
-}
-
 .mockha-images {
     width: 100%;
 }
@@ -218,7 +218,7 @@ footer>p {
 }
 
 /* Styling of div two (location details), section three, about page */
-.location h3 {
+.location h5 {
     background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
@@ -232,7 +232,7 @@ footer>p {
 }
 
 /* Styling of div three (opening times), section three, about page */
-.opening-times h3 {
+.opening-times h5 {
     background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
