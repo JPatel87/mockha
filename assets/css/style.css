@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     border: none;
-}
 
 html,
 body {
@@ -192,7 +191,6 @@ footer>p {
 }
 
 /* Styling of section two, index page */
-
 .mockha-images {
     width: 100%;
 }
@@ -216,7 +214,7 @@ footer>p {
 }
 
 /* Styling of div two (location details), section three, about page */
-.location h3 {
+.location h5 {
     background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
@@ -230,7 +228,7 @@ footer>p {
 }
 
 /* Styling of div three (opening times), section three, about page */
-.opening-times h3 {
+.opening-times h5 {
     background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
