@@ -7,9 +7,36 @@
     border: none;
 }
 
+html,
 body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
+    height: 100%;
+}
+
+#container {
+    height: auto;
+    min-height: 100%;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header {
+    padding: 10px;
+}
+
+#main {
+    padding-bottom: 200px;
+}
+
+#footer {
+    display: inline-block;
+    position: relative;
+    margin-top: -200px;
+    height: 200px;
+    width: 100%;
+    background-color: #ccb99f;
 }
 
 h1,
@@ -22,12 +49,15 @@ h4 {
 
 /* Styling of header */
 header {
-    display: inline-block;
-    width: 100%;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
 }
 
 nav {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     width: 100%;
 }
 
@@ -38,8 +68,7 @@ nav ul {
 nav li {
     display: inline;
     letter-spacing: 3px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 5px 10px 5px 10px;
     background-color: #ccb99f;
 }
 
@@ -59,7 +88,7 @@ header h2 {
     text-transform: capitalize;
 }
 
-nav a {
+a {
     text-decoration: none;
     color: #523a28;
 }
@@ -72,52 +101,8 @@ a.highlight:hover {
     border-bottom: 2px solid #523a28;
 }
 
-/* Styling of section one, index page */
-.hero-image {
-    width: 100%;
-}
 
-.page-heading {
-    text-align: center;
-    text-transform: uppercase;
-    color: #523a28;
-    width: 100%;
-    background-color: rgba(248, 193, 117, 0.8);
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-/* Styling of section two, index page */
-.page-subheading {
-    text-align: center;
-    text-transform: capitalize;
-    color: #523a28;
-    background-color: rgba(248, 193, 117, 0.8);
-    margin: 10px;
-    padding: 5px;
-}
-
-.mockha-images {
-    width: 100%;
-}
-
-/* Styling of section three, index page */
-.review {
-    text-align: center;
-    text-transform: capitalize;
-    color: #523a28;
-    background-color: rgba(115, 149, 46, 0.5);
-    margin: 10px;
-    padding: 5px;
-}
-
-/* Styling of footer */
-footer {
-    display: inline-block;
-    width: 100%;
-    background-color: #ccb99f;
-}
-
+/* Styling of footer*/
 footer h1 {
     color: #523a28;
     letter-spacing: 5px;
@@ -177,6 +162,49 @@ footer>p {
     text-transform: capitalize;
 }
 
+/* Styling of section one, index page */
+.hero-image {
+    width: 100%;
+}
+
+.page-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #523a28;
+    width: 100%;
+    background-color: rgba(248, 193, 117, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+/* Styling of section two, index page */
+.page-subheading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    width: 100%;
+    background-color: rgba(115, 149, 46, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.mockha-images {
+    width: 100%;
+}
+
+/* Styling of section three, index page */
+.review {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    background-color: rgba(115, 149, 46, 0.5);
+    margin-top: 15px;
+    padding: 5px;
+}
+
 /* Styling of section two, about page */
 .about-us {
     margin: 10px;
@@ -225,17 +253,16 @@ footer>p {
 }
 
 /* Styling of section two, menu page */
-.cakes-heading {
+#cakes {
+    width: 100%;
+
+}.cakes-heading {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
     background-color: rgba(248, 193, 117, 0.8);
     margin: 10px;
     padding: 5px;
-}
-
-.cake-section {
-    width: 100%;
 }
 
 .cake-types {
@@ -266,7 +293,7 @@ footer>p {
 }
 
 /* Styling of section three, menu page */
-.coffee-heading {
+#coffee {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
@@ -405,5 +432,4 @@ input[type=submit] {
     padding-right: 10%;
     border-radius: 8px;
     margin-top: 5%;
-
 }
