@@ -157,7 +157,7 @@ address>span {
 }
 
 footer i {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 footer ul {
@@ -201,7 +201,6 @@ footer>p {
 .review {
     text-align: center;
     color: #523a28;
-    margin-top: 15px;
     padding: 5px;
 }
 
