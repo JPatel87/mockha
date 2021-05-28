@@ -14,7 +14,7 @@ body {
     height: 100%;
 }
 
-#container {
+.container {
     height: auto;
     min-height: 100%;
     position: relative;
@@ -22,15 +22,15 @@ body {
     margin-right: 10px;
 }
 
-#header {
+.header {
     padding: 10px;
 }
 
-#main {
+.main {
     padding-bottom: 200px;
 }
 
-#footer {
+.footer {
     display: inline-block;
     position: relative;
     margin-top: -200px;
@@ -45,6 +45,30 @@ h3,
 h4 {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
+}
+
+.page-heading {
+    text-align: center;
+    text-transform: uppercase;
+    color: #523a28;
+    width: 100%;
+    background-color: rgba(248, 193, 117, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.page-subheading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    width: 100%;
+    background-color: rgba(115, 149, 46, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Styling of header */
@@ -70,6 +94,7 @@ nav li {
     letter-spacing: 3px;
     padding: 5px 10px 5px 10px;
     background-color: #ccb99f;
+    text-transform: capitalize;
 }
 
 header h1 {
@@ -100,7 +125,6 @@ a.highlight:hover {
 .active {
     border-bottom: 2px solid #523a28;
 }
-
 
 /* Styling of footer*/
 footer h1 {
@@ -167,29 +191,7 @@ footer>p {
     width: 100%;
 }
 
-.page-heading {
-    text-align: center;
-    text-transform: uppercase;
-    color: #523a28;
-    width: 100%;
-    background-color: rgba(248, 193, 117, 0.8);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 17px;
-}
-
 /* Styling of section two, index page */
-.page-subheading {
-    text-align: center;
-    text-transform: capitalize;
-    color: #523a28;
-    width: 100%;
-    background-color: rgba(115, 149, 46, 0.6);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 15px;
-    margin-top: 15px;
-}
 
 .mockha-images {
     width: 100%;
@@ -207,7 +209,6 @@ footer>p {
 
 /* Styling of section two, about page */
 .about-us {
-    margin: 10px;
     padding: 5px;
 }
 
@@ -243,8 +244,12 @@ footer>p {
 .opening-times-table {
     margin: auto;
     margin-bottom: 10px;
-    width: 300px;
-    border-spacing: 10px;
+    width: 250px;
+}
+
+.opening-times-header {
+    text-transform: capitalize;
+    padding-bottom: 5px;
 }
 
 /* Styling of section one, menu page */
@@ -309,16 +314,16 @@ footer>p {
     margin-bottom: 20px;
 }
 
-table th {
+/* table th {
     text-align: center;
     background-color: rgba(115, 149, 46, 0.5);
     padding: 0 5px 5px 0;
     text-transform: capitalize;
     width: 100px;
-    color: #523a28;
+    color: #523a28; */
 }
 
-table tr {
+    table tr {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
