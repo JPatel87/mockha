@@ -39,7 +39,7 @@ body {
     display: inline-block;
     position: relative;
     margin-top: -200px;
-    height: 200px;
+    height: auto;
     width: 100%;
     background-color: #ccb99f;
 }
