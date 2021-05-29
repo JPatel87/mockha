@@ -288,8 +288,8 @@ fieldset {
 label {
     vertical-align: middle;
     color: #523a28;
-    display: inline-block;
-    width: 100px;
+    display: block;
+    width: 100%;
     padding: 5px;
 }
 
@@ -310,13 +310,16 @@ input[type=email] {
     padding: 5px;
 }
 
-input[type=date] {
+input[type=date],[type=time] {
     border: 1px solid #523a28;
-    width: 10%
     padding: 5px;
 }
 
 #guests {
+    border: 1px solid #523a28;
+}
+
+textarea {
     border: 1px solid #523a28;
 }
 
@@ -329,8 +332,8 @@ input[type=date] {
 
 input[type=checkbox] {
     vertical-align: middle;
-    position: relative;
     bottom: 1px;
+    margin-right: 5px;
 }
 
 input[type=radio] {
