@@ -290,40 +290,128 @@ footer>p {
     list-style-type: none;
 }
 
-/* Styling of fieldset one in form in reserve page */
-fieldset {
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
+
+/* Styling of form in reserve page */
+
+.div-1, .div-2, .div-3{
+    display: in-line-block;
+    width: 300px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.div-4 {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #73952e;
+    margin-top: 10px;
+    padding: 10px 30px;
+    text-align: center;
     text-transform: capitalize;
+    color: #523a28;
+    text-align: center;
+    font-size: 4vw;
+    border-radius: 2vw;
 }
 
 label {
-    vertical-align: middle;
-    color: #523a28;
     display: block;
+    padding-bottom: 5px;
+}
+
+input[type="text"],
+[type="number"],
+[type="email"],
+[type="date"],
+[type="time"] {
+    border: 1px solid #523a28;
+    float: left;
+    width: 300px;
+    height: 30px;
+}
+textarea {
+    border: 1px solid #523a28;
+}
+
+.div-3-1, .div-3-2 {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+input[type=checkbox] {
+    bottom: 1px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+input[type=radio] {
+    bottom: 1px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+/* .reservation-section {
+    width: 100%
+}
+.form {
     width: 100%;
+}
+label {
+    float: left;
+    width: 50px;
+    height: 30px;
+}
+
+input[type="text"], [type="number"], [type="email"]{
+    border: 1px solid #523a28;
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* input[type="email"] {
+    border: 1px solid #523a28;
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin-right: 10px;
+} */
+
+/* select {
+    display: block;
+    width: 50px;
+    height:30px;
+} */
+*/
+/* label {
+    color: #523a28;
+    display: inline-block;
+    width: 100px;
     padding: 5px;
 }
 
-input[type=text],
+input[type=text], input[type=email],
 [type=number] {
     border: 1px solid #523a28;
-    width: 35%;
+    width: 100px;
     height: 25%;
     margin: 5px;
     padding: 5px;
 }
 
-input[type=email] {
+/* input[type=email] {
     border: 1px solid #523a28;
     width: 60%;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px;
-}
+} */
 
-input[type=date],
+/* input[type=date],
 [type=time] {
     border: 1px solid #523a28;
     padding: 5px;
@@ -369,4 +457,5 @@ input[type=submit] {
     padding-right: 10%;
     border-radius: 8px;
     margin-top: 5%;
-}
+} */
+*/
