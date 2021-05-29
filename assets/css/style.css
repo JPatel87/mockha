@@ -63,7 +63,7 @@ h4 {
     text-transform: capitalize;
     color: #523a28;
     width: 100%;
-    background-color: rgba(115, 149, 46, 0.6);
+    background-color: rgba(115, 149, 46, 0.8);
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
@@ -277,84 +277,53 @@ footer>p {
     list-style-type: none;
 }
 
-/*Styling of section three, menu page*/
-
-
 /* Styling of fieldset one in form in reserve page */
 fieldset {
     text-align: left;
     margin: 10px;
     padding: 10px;
     text-transform: capitalize;
-    background-color: rgba(115, 149, 46, 0.5);
-    border: solid;
-}
-
-legend {
-    background-color: rgba(248, 193, 117, 1);
-    text-align: center;
 }
 
 label {
-    font-size: 1em;
     vertical-align: middle;
     color: #523a28;
     display: inline-block;
-    width: 150px;
+    width: 100px;
+    padding: 5px;
 }
 
 input[type=text],
 [type=number] {
     border: 1px solid #523a28;
     width: 35%;
+    height: 25%;
+    margin: 5px;
+    padding: 5px;
 }
 
 input[type=email] {
     border: 1px solid #523a28;
-    width: 50%;
-
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 
-input[type=date],
-[type=time] {
+input[type=date] {
     border: 1px solid #523a28;
-    width: 25%
+    width: 10%
+    padding: 5px;
 }
 
 #guests {
     border: 1px solid #523a28;
 }
 
-fieldset p {
-    font-size: 1em;
-    vertical-align: middle;
-    color: #523a28;
-    display: inline-block;
-    width: 200px;
-}
-
-/* Styling of fieldset two in form in reserve page */
-fieldset.survey {
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-    text-transform: capitalize;
-    background-color: rgba(115, 149, 46, 0.5);
-    border: solid;
-    position: relative;
-    height: 250px;
-}
-
-.survey label {
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .survey-questions {
     text-align: left;
     margin-bottom: 5px;
     margin-top: 5px;
-    position: relative;
     padding-top: 5px;
 }
 
@@ -362,17 +331,12 @@ input[type=checkbox] {
     vertical-align: middle;
     position: relative;
     bottom: 1px;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 input[type=radio] {
     vertical-align: middle;
     position: relative;
     bottom: 1px;
-    margin-right: 10px;
-    margin-left: 10px;
-    ;
 }
 
 input[type=submit] {
