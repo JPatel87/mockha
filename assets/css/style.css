@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway&display=swap');
 
 /* Generic styling */
+
+html {
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -47,7 +52,15 @@ h4 {
     font-weight: 600;
 }
 
-.page-heading {
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.page-h3 {
     text-align: center;
     text-transform: uppercase;
     color: #523a28;
@@ -55,10 +68,10 @@ h4 {
     background-color: rgba(248, 193, 117, 0.8);
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 17px;
+    font-size: 1.1rem;
 }
 
-.page-subheading {
+.page-h4 {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
@@ -66,12 +79,12 @@ h4 {
     background-color: rgba(115, 149, 46, 0.8);
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 15px;
+    font-size: 0.9rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.page-small-subheading {
+.page-h5 {
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
@@ -79,7 +92,7 @@ h4 {
     background-color: #ccb99f;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 15px;
+    font-size: 0.8rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -237,7 +250,7 @@ footer>p {
 }
 
 /* Styling of section three, about page */
-.find-us {
+.contact-us {
     text-align: center;
 }
 
@@ -310,7 +323,8 @@ input[type=email] {
     padding: 5px;
 }
 
-input[type=date],[type=time] {
+input[type=date],
+[type=time] {
     border: 1px solid #523a28;
     padding: 5px;
 }
