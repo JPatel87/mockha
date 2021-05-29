@@ -291,8 +291,7 @@ footer>p {
 }
 
 
-/* Styling of form in reserve page */
-
+/* Styling of reservation form in reserve page */
 .your-details, .booking-details, .questionnaire{
     display: in-line-block;
     width: 300px;
