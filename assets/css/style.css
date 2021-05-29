@@ -71,6 +71,19 @@ h4 {
     margin-bottom: 10px;
 }
 
+.page-small-subheading {
+    text-align: center;
+    text-transform: capitalize;
+    color: #523a28;
+    width: 100%;
+    background-color: #ccb99f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Styling of header */
 header {
     display: inline;
@@ -124,6 +137,31 @@ a.highlight:hover {
 
 .active {
     border-bottom: 2px solid #523a28;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    border-spacing: 10px;
+}
+
+.table th {
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+
+.table tr {
+    text-align: center;
+    text-transform: lowercase;
+    color: #523a28;
+}
+
+.first-table-heading {
+    text-align: left;
+}
+
+.images {
+    width: 100%;
 }
 
 /* Styling of footer*/
@@ -187,14 +225,7 @@ footer>p {
 }
 
 /* Styling of section one, index page */
-.hero-image {
-    width: 100%;
-}
-
-/* Styling of section two, index page */
-.mockha-images {
-    width: 100%;
-}
+.
 
 /* Styling of section three, index page */
 .review {
@@ -220,24 +251,6 @@ footer>p {
     text-align: center;
 }
 
-/* Styling of div three (opening times), section three, about page */
-
-.opening-times {
-    text-align: center;
-}
-
-.opening-times-table {
-    margin: auto;
-    margin-bottom: 10px;
-    width: 250px;
-    color: #523a28;
-}
-
-.opening-times-header {
-    text-transform: capitalize;
-    padding-bottom: 5px;
-}
-
 /* Styling of section one, menu page */
 .menu-image {
     width: 100%;
@@ -246,23 +259,6 @@ footer>p {
 /* Styling of section two, menu page */
 #cakes {
     width: 100%;
-
-}.cakes-heading {
-    text-align: center;
-    text-transform: capitalize;
-    color: #523a28;
-    background-color: rgba(248, 193, 117, 0.8);
-    margin: 10px;
-    padding: 5px;
-}
-
-.cake-types {
-    width: 40%;
-    height: 50%;
-    text-align: center;
-    padding: 0 5px 5px 5px;
-    color: #523a28;
-    text-transform: capitalize;
 }
 
 .cake-wrapper {
@@ -271,49 +267,21 @@ footer>p {
     padding: 10px;
 }
 
-.cake-types h4 {
-    background-color: rgba(115, 149, 46, 0.5);
-}
-
-.cake-types p {
-    background-color: rgba(115, 149, 46, 0.5);
+.cake-types {
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    padding: 0 5px 5px 5px;
+    color: #523a28;
+    text-transform: lowercase;
 }
 
 .cake-types li {
     list-style-type: none;
 }
 
-/* Styling of section three, menu page */
-#coffee {
-    text-align: center;
-    text-transform: capitalize;
-    color: #523a28;
-    background-color: rgba(248, 193, 117, 0.8);
-    margin: 10px;
-    padding: 5px;
-}
+/*Styling of section three, menu page*/
 
-.coffee-table {
-    display: flex;
-    justify-content: center;
-    border-spacing: 10px;
-    margin-bottom: 20px;
-}
-
-/* table th {
-    text-align: center;
-    background-color: rgba(115, 149, 46, 0.5);
-    padding: 0 5px 5px 0;
-    text-transform: capitalize;
-    width: 100px;
-    color: #523a28; */
-}
-
-    table tr {
-    text-align: center;
-    text-transform: capitalize;
-    color: #523a28;
-}
 
 /* Styling of fieldset one in form in reserve page */
 fieldset {
