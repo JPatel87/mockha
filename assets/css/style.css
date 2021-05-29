@@ -344,12 +344,12 @@ textarea {
 
 input[type=checkbox] {
     bottom: 1px;
-    margin-left: 10px;
-    margin-right: 10px; 
+    margin-left: 4px;
+    margin-right: 4px; 
 }
 
 input[type=radio] {
     bottom: 1px;
-    margin-left: 10px;
-    margin-right: 10px; 
+    margin-left: 4px;
+    margin-right: 4px; 
 }
