@@ -23,8 +23,7 @@ body {
     height: auto;
     min-height: 100%;
     position: relative;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .header {
@@ -41,7 +40,7 @@ body {
     margin-top: -200px;
     height: auto;
     width: 100%;
-    background-color: #ccb99f;
+    background-color: rgba(204,185,159,0.6);
 }
 
 h1,
@@ -52,12 +51,8 @@ h4 {
     font-weight: 600;
 }
 
-h1 {
-    font-size: 10vw;
-}
-
 h2 {
-    font-size: 8vw;
+    font-size: 3vw;
 }
 
 .page-h3 {
@@ -68,7 +63,8 @@ h2 {
     background-color: rgba(248, 193, 117, 0.8);
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 4vw;
+    font-size: 3vw;
+    margin-top: 10px;
 }
 
 .page-h4 {
@@ -98,45 +94,48 @@ h2 {
 }
 
 /* Styling of header */
-header {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+
+.nav-menu {
+    background-color: rgba(204,185,159,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-nav {
-    padding-bottom: 5px;
+.nav-list {
+    list-style-type: none;
+    font-size: 1rem;
+    word-spacing: 5px;
+    padding-right: 10px;
     padding-top: 5px;
-    width: 100%
 }
 
-nav ul {
-    text-align: center;
+.nav-list .list-item {
+    display: inline-block;
 }
 
-nav li {
-    display: inline;
-    letter-spacing: 3px;
-    padding: 5px 10px 5px 10px;
-    background-color: #ccb99f;
-    text-transform: capitalize;
-    font-size: 4vw;
+header {
+    width: 100%;
 }
 
-header h1 {
+.header-h1 {
     color: #523a28;
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 10px;
+    letter-spacing: 6px;
+    text-align: left;
+    padding-top: 5px;
     text-transform: capitalize;
+    font-size: 2rem;
+    padding-left: 10px;
 }
 
-header h2 {
+.header-h2 {
     color: #73952e;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-align: left;
     text-transform: capitalize;
+    font-size: 1rem;
+    padding-left: 10px;
 }
 
 a {
@@ -178,22 +177,23 @@ a.highlight:hover {
 }
 
 /* Styling of footer*/
-footer h1 {
+.footer-h1 {
     color: #523a28;
     letter-spacing: 5px;
     width: 100%;
     text-align: center;
     margin-top: 10px;
     text-transform: capitalize;
+    font-size: 5vw;
 }
 
-footer h2 {
+.footer-h2 {
     color: #73952e;
-    letter-spacing: 2px;
     margin: 0px 10px 10px 10px;
     text-align: center;
     margin-bottom: 10px;
     text-transform: capitalize;
+    font-size: 3vw
 }
 
 footer address {
@@ -353,3 +353,21 @@ input[type=radio] {
     margin-left: 4px;
     margin-right: 4px; 
 }
+
+/* Media queries for screen size between 400px to 800px */
+.footer-h1 {
+    font-size: 8vw;
+}
+
+.footer-h2 {
+    font-size: 5vw
+
+
+
+/* Media queries for screen size between 400px to 800px */
+.footer-h1 {
+    font-size: 4vw;
+}
+
+.footer-h2 {
+    font-size: 2vw
