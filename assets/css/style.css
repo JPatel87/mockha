@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway&display=swap');
 
+/* Styling for max-width screen size of 
+
 /* Generic styling */
 
 html {
@@ -23,11 +25,7 @@ body {
     height: auto;
     min-height: 100%;
     position: relative;
-    margin: 2vw;
-}
-
-.header {
-    padding: 2vw;
+    margin: 5vw;
 }
 
 .main {
@@ -87,65 +85,64 @@ h4 {
     padding-bottom: 2vw;
     font-size: 0.8rem;
     margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 /* Styling of header */
-
-.nav-menu {
-    background-color: rgba(204,185,159,0.5);
+.navigation-container {
+    background-color: rgba(204,185,159,0.3);
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-end;
     flex-direction: row;
+    padding: 3vw;
+}
+
+.logo-container {
+    width: 40vw;
+}
+
+.logo-container h1 {
+    color: #523a28;
+    text-transform: capitalize;
+    font-size: 1.9rem;
+}
+
+.logo-container h2 {
+    color: #73952e;
+    text-transform: capitalize;
+    font-size: 0.7rem;
+}
+
+.menu-container {
+    width: 60vw; 
 }
 
 .nav-list {
-    list-style-type: none;
-    font-size: 1rem;
-    word-spacing: 1rem;
-    padding-right: 2vw;
-    padding-top: 1vw;
+    float: right;
+    list-style-type: none; 
 }
 
-.nav-list .list-item {
+.list-item {
     display: inline-block;
+    padding-right: 1vw;
+    padding-left: 1vw;
 }
 
-header {
-    width: 100%;
-}
-
-.header-h1 {
+.list-item a {
+    font-size: 0.7rem;
     color: #523a28;
-    letter-spacing: 0.2rem;
-    text-align: left;
-    padding-top: 0.5rem;
     text-transform: capitalize;
-    font-size: 2rem;
-    padding-left: 2vw;
-}
-
-.header-h2 {
-    color: #73952e;
-    margin-bottom: 1vw;
-    text-align: left;
-    text-transform: capitalize;
-    font-size: 1rem;
-    padding-left: 2vw;
-}
-
-a {
     text-decoration: none;
-    color: #523a28;
 }
 
-a.highlight:hover {
-    background-color: #73952e;
+.highlight:hover {
+    background-color: #f8c175;
 }
 
 .active {
     border-bottom: 0.2rem solid #523a28;
-}
+} 
 
 /* Styling of opening times and coffee tables */
 
