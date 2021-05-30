@@ -23,21 +23,21 @@ body {
     height: auto;
     min-height: 100%;
     position: relative;
-    margin: 10px;
+    margin: 2vw;
 }
 
 .header {
-    padding: 10px;
+    padding: 2vw;
 }
 
 .main {
-    padding-bottom: 200px;
+    padding-bottom: 1vh;
 }
 
 .footer {
     display: inline-block;
     position: relative;
-    margin-top: -200px;
+    margin-top: -1vh;
     height: auto;
     width: 100%;
     background-color: rgba(204,185,159,0.6);
@@ -51,20 +51,16 @@ h4 {
     font-weight: 600;
 }
 
-h2 {
-    font-size: 3vw;
-}
-
 .page-h3 {
     text-align: center;
     text-transform: uppercase;
     color: #523a28;
     width: 100%;
     background-color: rgba(248, 193, 117, 0.8);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 3vw;
-    margin-top: 10px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 0.9rem;
+    margin-top: 2vw;
 }
 
 .page-h4 {
@@ -73,11 +69,10 @@ h2 {
     color: #523a28;
     width: 100%;
     background-color: rgba(115, 149, 46, 0.8);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 3.5vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 0.8rem;
+    margin-top: 2vw;
 }
 
 .page-h5 {
@@ -86,11 +81,10 @@ h2 {
     color: #523a28;
     width: 100%;
     background-color: #ccb99f;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 3.5vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 0.8rem;
+    margin-top: 2vw;
 }
 
 /* Styling of header */
@@ -100,14 +94,15 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    flex-direction: column;
 }
 
 .nav-list {
     list-style-type: none;
     font-size: 1rem;
-    word-spacing: 5px;
-    padding-right: 10px;
-    padding-top: 5px;
+    word-spacing: 1rem;
+    padding-left: 2vw;
+    padding-top: 1vw;
 }
 
 .nav-list .list-item {
@@ -150,6 +145,8 @@ a.highlight:hover {
 .active {
     border-bottom: 2px solid #523a28;
 }
+
+/* Styling of opening times and coffee tables */
 
 .table {
     display: flex;
@@ -355,19 +352,15 @@ input[type=radio] {
 }
 
 /* Media queries for screen size between 400px to 800px */
-.footer-h1 {
-    font-size: 8vw;
+@media (max-width: 800px) and (min-width:400px) {
+    .nav-menu {
+    flex-direction: row;
+    }   
+
+.nav-list {
+    padding-left: 2vw;  
+    }
 }
 
-.footer-h2 {
-    font-size: 5vw
 
 
-
-/* Media queries for screen size between 400px to 800px */
-.footer-h1 {
-    font-size: 4vw;
-}
-
-.footer-h2 {
-    font-size: 2vw
