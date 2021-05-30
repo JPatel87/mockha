@@ -115,22 +115,21 @@ header {
 
 .header-h1 {
     color: #523a28;
-    letter-spacing: 6px;
+    letter-spacing: 0.2rem;
     text-align: left;
-    padding-top: 5px;
+    padding-top: 0.5rem;
     text-transform: capitalize;
     font-size: 2rem;
-    padding-left: 10px;
+    padding-left: 2vw;
 }
 
 .header-h2 {
     color: #73952e;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 1vw;
     text-align: left;
     text-transform: capitalize;
     font-size: 1rem;
-    padding-left: 10px;
+    padding-left: 2vw;
 }
 
 a {
@@ -143,7 +142,7 @@ a.highlight:hover {
 }
 
 .active {
-    border-bottom: 2px solid #523a28;
+    border-bottom: 0.2rem solid #523a28;
 }
 
 /* Styling of opening times and coffee tables */
@@ -156,7 +155,7 @@ a.highlight:hover {
 
 .table th {
     text-transform: capitalize;
-    padding-bottom: 5px;
+    padding-bottom: 1vw;
 }
 
 .table tr {
@@ -179,18 +178,17 @@ a.highlight:hover {
     letter-spacing: 5px;
     width: 100%;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 2vw;
     text-transform: capitalize;
-    font-size: 5vw;
+    font-size: 1.5rem;
 }
 
 .footer-h2 {
     color: #73952e;
-    margin: 0px 10px 10px 10px;
+    margin: 0 2vw 2vw 2vw;
     text-align: center;
-    margin-bottom: 10px;
     text-transform: capitalize;
-    font-size: 3vw
+    font-size: 1rem
 }
 
 footer address {
@@ -200,18 +198,18 @@ footer address {
 }
 
 address>span {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 footer i {
-    font-size: 30px;
+    font-size: 1.5rem;
 }
 
 footer ul {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 footer li {
@@ -221,15 +219,15 @@ footer li {
 
 .footer-media {
     color: #523a28;
-    margin: 20px;
+    margin: 2vw;
     text-align: center;
 }
 
 footer>p {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 10px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 0.5rem;
     color: #523a28;
     text-transform: capitalize;
 }
@@ -238,12 +236,12 @@ footer>p {
 .review {
     text-align: center;
     color: #523a28;
-    padding: 5px;
+    padding: 1vw;
 }
 
 /* Styling of section two, about page */
 .about-us {
-    padding: 5px;
+    padding: 1vw;
 }
 
 /* Styling of section three, about page */
@@ -254,7 +252,7 @@ footer>p {
 .location {
     font-style: normal;
     color: #523a28;
-    padding-top: 10px;
+    padding-top: 2vw;
     text-align: center;
 }
 
@@ -271,14 +269,14 @@ footer>p {
 .cake-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 2vw;
 }
 
 .cake-types {
     width: 40%;
     height: 50%;
     text-align: center;
-    padding: 0 5px 5px 5px;
+    padding: 0 1vw 1vw 1vw;
     color: #523a28;
     text-transform: lowercase;
 }
@@ -294,7 +292,7 @@ footer>p {
     width: 300px;
     height: 320px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 1vw;
 }
 .questionnaire {
     text-align: center;
@@ -302,19 +300,19 @@ footer>p {
 
 input[type="submit"] {
     background-color: #73952e;
-    margin-top: 10px;
-    padding: 10px 30px;
+    margin-top: 2vw;
+    padding: 2vw 3vw;
     text-align: center;
     text-transform: capitalize;
     color: #523a28;
     text-align: center;
-    font-size: 4vw;
-    border-radius: 2vw;
+    font-size: 1rem;
+    border-radius: 1rem;
 }
 
 label {
     display: block;
-    padding-bottom: 5px;
+    padding-bottom: 1vw;
 }
 
 input[type="text"],
@@ -324,12 +322,13 @@ input[type="text"],
 [type="time"] {
     border: 1px solid #523a28;
     float: left;
-    width: 300px;
-    height: 30px;
+    width: 100%;
+    height: 10%
 }
 
 textarea {
     border: 1px solid #523a28;
+    width: 100%;
 }
 
 .question-1, .question-2 {
@@ -340,15 +339,15 @@ textarea {
 }
 
 input[type=checkbox] {
-    bottom: 1px;
-    margin-left: 4px;
-    margin-right: 4px; 
+    bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw; 
 }
 
 input[type=radio] {
-    bottom: 1px;
-    margin-left: 4px;
-    margin-right: 4px; 
+    bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 5vw; 
 }
 
 /* Media queries for screen size between 400px to 800px */
@@ -358,9 +357,6 @@ input[type=radio] {
     }   
 
 .nav-list {
-    padding-left: 2vw;  
+    padding-right: 2vw;  
     }
 }
-
-
-
