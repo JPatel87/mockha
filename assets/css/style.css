@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway&display=swap');
 
-/* Styling for medium mobile phone devices (screen width max-width 400px)*/
+/* Styling for medium mobile phone devices (screen width min-width: 370px)*/
 
 /* Generic styling */
 
@@ -242,7 +242,7 @@ address {
 }
 
 .iframe-container {
-    height: 50vh;
+    height: 20vh;
     width: 100%;
     position: relative;
 }
@@ -403,9 +403,9 @@ input[type="submit"] {
     border-radius: 1rem;
 }
 
-/* Media queries for max-screen size 360px*/
+/* Media query for small mobile phone devices */
 
-@media screen and (max-width:360px) {
+@media screen and (min-width:300px) and (max-width:360px) {
     .navigation-container {
         align-items: flex-start;
         flex-direction: row;
@@ -450,148 +450,4 @@ input[type="submit"] {
         font-size: 0.7rem;
         line-height: 1rem;
     }
-}
-
-/* Media queries for max-screen size 800px*/
-
-@media screen and (min-width:800px) {
-
-    .container {
-        margin: 7vh;
-    }
-
-    .logo-container-header h1 {
-        font-size: 3rem;
-    }
-
-    .logo-container-header h2 {
-        font-size: 1.3rem;
-    }
-
-    .list-item a {
-        font-size: 1.5rem;
-    }
-
-    .page-h3 {
-        font-size: 1.5rem;
-    }
-
-    .page-h4 {
-        font-size: 1.2rem;
-    }
-
-    .page-h5 {
-        font-size: 1rem;
-    }
-
-    .logo-container-footer h2 {
-        font-size: 2rem;
-    }
-
-    .logo-container-footer h3 {
-        font-size: 0.9rem;
-    }
-
-    .footer-icon {
-        color: #523a28;
-        font-size: 1.8rem;
-    }
-
-    .copyright-container p {
-        font-size: 0.9rem; 
-    }
-}
-
-/* Media queries for max-screen size 1000px*/
-
-@media screen and (max-width:1200px) {
-
-    .container {
-        margin: 7vh;
-    }
-
-    .logo-container-header h1 {
-        font-size: 3.5rem;
-    }
-
-    .logo-container-header h2 {
-        font-size: 1.5rem;
-    }
-
-    .list-item a {
-        font-size: 1.5rem;
-    }
-
-    .page-h3 {
-        font-size: 1.8rem;
-    }
-
-    .page-h4 {
-        font-size: 1.7rem;
-    }
-
-    .page-h5 {
-        font-size: 1.6rem;
-    }
-
-    .logo-container-footer h2 {
-        font-size: 2.2rem;
-    }
-
-    .logo-container-footer h3 {
-        font-size: 1rem;
-    }
-
-    .footer-icon {
-        color: #523a28;
-        font-size: 1.8rem;
-    }
-
-    .copyright-container p {
-        font-size: 1rem;
-    }
-
-    label {
-        font-size: 1.5rem;
-    }
-
-    input[type=checkbox] {
-        height: 2rem;
-        width: 2rem;
-    }
-
-    input[type=radio] {
-        height: 2rem;
-        width: 2rem;
-    }
-
-    p {
-        font-size: 1.8rem;
-    }
-
-    input[type="submit"] {
-        font-size: 1.5rem;
-        border-radius: 4rem;
-    }
-
-    address {
-        font-size: 1.5rem;
-    }
-
-    .cake-types li {
-        font-size: 1.5rem;
-    }
-
-    .table td, tr {
-        font-size: 1.5rem;
-        line-height: 2rem;
-    }
-
-    .table th {
-        padding: 1.5vh;
-    }
-
-    p {
-        font-size: 1.5rem;
-    }
-}
+} 
