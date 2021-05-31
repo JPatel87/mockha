@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway&display=swap');
 
-/* Styling for medium mobile phone devices (screen width between 360px to 450px)*/
+/* Styling for medium mobile phone devices (screen width max-width 400px)*/
 
 /* Generic styling */
 
@@ -21,6 +21,15 @@ body {
     height: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
 .container {
     height: auto;
     min-height: 100%;
@@ -38,15 +47,7 @@ body {
     margin-top: -1vh;
     height: auto;
     width: 100%;
-    background-color: rgba(204,185,159,0.6);
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: Montserrat, sans-serif;
-    font-weight: 600;
+    background-color: rgba(204, 185, 159, 0.6);
 }
 
 .page-h3 {
@@ -88,19 +89,31 @@ h4 {
     margin-bottom: 2vw;
 }
 
+a:visited {
+    text-decoration: none;
+    color: #523a28;
+}
+
 a {
     text-decoration: none;
     color: #523a28;
 }
 
 p {
-    color: #523a28;
     text-align: center;
+    color: #523a28;
+    padding: 1vw;
+    font-size: 0.8rem;
+}
+
+.images {
+    width: 100%;
 }
 
 /* Styling of header */
+
 .navigation-container {
-    background-color: rgba(204,185,159,0.3);
+    background-color: rgba(204, 185, 159, 0.3);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -125,12 +138,12 @@ p {
 }
 
 .menu-container {
-    width: 60vw; 
+    width: 60vw;
 }
 
 .nav-list {
     float: right;
-    list-style-type: none; 
+    list-style-type: none;
 }
 
 .list-item {
@@ -144,55 +157,21 @@ p {
     text-transform: capitalize;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #523a28;
-}
-
 .highlight:hover {
     background-color: #f8c175;
 }
 
 .active {
     border-bottom: 0.2rem solid #73952e;
-} 
-
-/* Styling of opening times and coffee tables */
-.table {
-    border-spacing: 2rem 0;
-    font-size: 0.9rem;
-    width: 100%;
-    margin-top: 2vh;
-    table-layout: fixed;
-    text-align: center;
-}
-
-.table th {
-    text-transform: capitalize;
-    padding-bottom: 1vw;
-}
-
-.table tr {
-    text-align: center;
-    text-transform: lowercase;
-    color: #523a28;
-    line-height: 1.5rem;
-}
-
-.first-table-row {
-    background-color: #f8c175;
-}
-
-.images {
-    width: 100%;
 }
 
 /* Styling of footer*/
+
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(204,185,159,0.3);
+    background-color: rgba(204, 185, 159, 0.3);
     padding: 1vw 3vw 1vw 1vw;
 }
 
@@ -229,29 +208,16 @@ footer {
 }
 
 .copyright-container p {
-    font-size: 0.5rem; 
-    padding-top: 1vw; 
+    font-size: 0.5rem;
+    padding-top: 1vw;
     text-align: center;
     bottom: 0;
     position: relative;
 }
 
-/* Styling of section three, index page */
-.testimonials {
-    text-align: center;
-    color: #523a28;
-    padding: 1vw;
-    font-size: 1rem;
-}
 
-.testimonials q {
-    text-align: center;
-    color: #523a28;
-    padding: 1vw;
-    font-size: 1rem;
-}
+/* Styling of contact us section, about page */
 
-/* Styling of section three, about page */
 .contact-us-container {
     display: flex;
     flex-direction: column;
@@ -269,14 +235,14 @@ footer {
     padding-bottom: 3vh;
 }
 
-.address {
+address {
     font-style: normal;
     color: #523a28;
     font-size: 0.9rem;
 }
 
-.iframe-container { 
-    height: 20vh;
+.iframe-container {
+    height: 50vh;
     width: 100%;
     position: relative;
 }
@@ -288,18 +254,40 @@ footer {
 }
 
 .iframe-comment {
-    background-color: green;
     position: absolute;
     z-index: -1;
     text-align: center;
 }
 
-/* Styling of section one, menu page */
-.menu-image {
+/* Styling of opening times section, about page and coffee table, menu page */
+
+.table {
+    font-size: 0.9rem;
     width: 100%;
+    margin-top: 2vh;
+    table-layout: fixed;
+    text-align: center;
 }
 
-/* Styling of section two, menu page */
+.table th {
+    text-transform: capitalize;
+    padding-bottom: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+
+.table tr {
+    text-align: center;
+    text-transform: lowercase;
+    color: #523a28;
+    line-height: 1.5rem;
+}
+
+.first-table-row {
+    background-color: #f8c175;
+}
+
+/* Styling of cake section, menu page */
+
 #cakes {
     width: 100%;
 }
@@ -319,12 +307,16 @@ footer {
 }
 
 .cake-types li {
+    font-size: 0.9rem;
+}
+
+.cake-types li {
     list-style-type: none;
     line-height: 2rem;
 }
 
+/* Styling of reservation form, reserve page */
 
-/* Styling of reservation form in reserve page */
 form p {
     text-align: center;
 }
@@ -336,8 +328,6 @@ form p {
     align-items: stretch;
     align-content: center;
 }
-/* .your-details .booking-details .questionnaire {
-} */
 
 input[type="text"],
 [type="number"],
@@ -360,31 +350,39 @@ select {
 
 label {
     color: #523a28;
+    font-size: 0.8rem;
 }
 
 textarea {
     border: 1px solid #523a28;
     width: 100%;
-    height: auto;
+    height: 7vh;
 }
 
-.question-1, .question-2 {
-    display:flex;
+.question-1,
+.question-2 {
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
 }
 
 input[type=checkbox] {
-    bottom: 1vw;
+    border: 0;
+    height: 1.2rem;
+    width: 1.2rem;
     margin-left: 1vw;
-    margin-right: 1vw; 
+    margin-right: 1vw;
+    background-color: #f8c175;
 }
 
 input[type=radio] {
-    bottom: 1vw;
+    border: 0;
+    height: 1.2rem;
+    width: 1.2rem;
     margin-left: 1vw;
-    margin-right: 5vw; 
+    margin-right: 5vw;
+    background-color: #f8c175;
 }
 
 .submit {
@@ -405,7 +403,56 @@ input[type="submit"] {
     border-radius: 1rem;
 }
 
-/* Media queries for screen size between 400px to 800px */
+/* Media queries for max-screen size 360px*/
+
+@media screen and (max-width:360px) {
+    .navigation-container {
+        align-items: flex-start;
+        flex-direction: row;
+        padding: 3vw;
+    }
+
+    .list-item {
+        display: block;
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+
+    .logo-container-header h1 {
+        font-size: 2rem;
+    }
+
+    .logo-container-header h2 {
+        font-size: 0.7rem;
+    }
+
+    .page-h3 {
+        font-size: 0.8rem;
+    }
+
+    .page-h4 {
+        font-size: 0.7rem;
+    }
+
+    .page-h5 {
+        font-size: 0.6rem;
+    }
+
+    address {
+        font-size: 0.8rem;
+    }
+
+    .cake-types li {
+        font-size: 0.7rem;
+    }
+
+    .table td, tr {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+}
+
+/* Media queries for max-screen size 800px*/
 
 @media screen and (min-width:800px) {
 
@@ -416,23 +463,135 @@ input[type="submit"] {
     .logo-container-header h1 {
         font-size: 3rem;
     }
-    
+
     .logo-container-header h2 {
-        color: #73952e;
-        text-transform: capitalize;
-        font-size: 2rem;
-}
+        font-size: 1.3rem;
+    }
+
     .list-item a {
         font-size: 1.5rem;
-}
+    }
+
     .page-h3 {
         font-size: 1.5rem;
-}
+    }
+
     .page-h4 {
         font-size: 1.2rem;
     }
 
     .page-h5 {
         font-size: 1rem;
-       
     }
+
+    .logo-container-footer h2 {
+        font-size: 2rem;
+    }
+
+    .logo-container-footer h3 {
+        font-size: 0.9rem;
+    }
+
+    .footer-icon {
+        color: #523a28;
+        font-size: 1.8rem;
+    }
+
+    .copyright-container p {
+        font-size: 0.9rem; 
+    }
+}
+
+/* Media queries for max-screen size 1000px*/
+
+@media screen and (max-width:1200px) {
+
+    .container {
+        margin: 7vh;
+    }
+
+    .logo-container-header h1 {
+        font-size: 3.5rem;
+    }
+
+    .logo-container-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .list-item a {
+        font-size: 1.5rem;
+    }
+
+    .page-h3 {
+        font-size: 1.8rem;
+    }
+
+    .page-h4 {
+        font-size: 1.7rem;
+    }
+
+    .page-h5 {
+        font-size: 1.6rem;
+    }
+
+    .logo-container-footer h2 {
+        font-size: 2.2rem;
+    }
+
+    .logo-container-footer h3 {
+        font-size: 1rem;
+    }
+
+    .footer-icon {
+        color: #523a28;
+        font-size: 1.8rem;
+    }
+
+    .copyright-container p {
+        font-size: 1rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    input[type=checkbox] {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    input[type=radio] {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    input[type="submit"] {
+        font-size: 1.5rem;
+        border-radius: 4rem;
+    }
+
+    address {
+        font-size: 1.5rem;
+    }
+
+    .cake-types li {
+        font-size: 1.5rem;
+    }
+
+    .table td, tr {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .table th {
+        padding: 1.5vh;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
