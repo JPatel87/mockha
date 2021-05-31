@@ -46,6 +46,7 @@
             </section>
             <form action="" method="POST" class="form">
                 <h4 class="page-h4">reservation details</h4>
+                <p>Please note reservations are not essential and we have set times for reservations to allow us to accomondate all our customers</p><br>
                 <div class="your-details">
                     <h5 class="page-h5">your details</h5>
                     <label for="first-name">first name:</label>
@@ -63,8 +64,15 @@
                     <input id="guests" name="guests" type="number" placeholder="e.g. 2" required><br><br>
                     <label for="reservation-date">date:</label>
                     <input id="reservation-date" name="reservation-date" type="date" required><br><br>
-                    <label for="reservation-time">time:</label>
-                    <input id="reservation-time" name="reservation-time" type="time" required><br><br>  
+                    <label for="time">time:</label>
+                    <select id="time" name="time">
+                        <option value="10:00">10:00</option>
+                        <option value="10:30">10:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:30">11:30</option>
+                        <option value="12:00">12:00</option>
+                        <option value="12:30">12:30</option>
+                    </select><br><br>
                     <label for="additional-details">additional details:</label>
                     <textarea id="additional-details" name="additional-details"
                         placeholder="e.g allergies, celebration, table location preference" rows="2"
@@ -74,8 +82,8 @@
                     <h5 class="page-h5">questionnaire</h5>
                     <p>how did you find us? [tick all that apply]</p><br>
                     <div class="question-1">
-                        <label for="google">google</label>
-                        <input id="google" name="marketing-media" type="checkbox" value="google">
+                        <label for="internet">internet</label>
+                        <input id="internet" name="marketing-media" type="checkbox" value="internet">
                         <label for="friends">friends</label>
                         <input id="friends" name="friends" type="checkbox" value="friends">
                         <label for="social-media">social media</label>
@@ -88,7 +96,7 @@
                         <label for="no">no</label>
                         <input id="no" name="first-time-visit" type="radio" value="no">
                     </div>
-                    <div>
+                    <div class="submit">
                         <input type="submit" value="reserve now">
                     </div>
                 </div>

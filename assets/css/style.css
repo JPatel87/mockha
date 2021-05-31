@@ -80,7 +80,7 @@ h4 {
     text-transform: capitalize;
     color: #523a28;
     width: 100%;
-    background-color: #b6751a;
+    background-color: #f8c175;
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-size: 0.8rem;
@@ -146,9 +146,11 @@ h4 {
 
 /* Styling of opening times and coffee tables */
 .table {
-    display: flex;
-    justify-content: center;
-    border-spacing: 10px;
+    border-spacing: 2rem 0;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: 2vh;
+    table-layout: auto;
 }
 
 .table th {
@@ -160,10 +162,15 @@ h4 {
     text-align: center;
     text-transform: lowercase;
     color: #523a28;
+    line-height: 2rem;
 }
 
 .first-table-column {
-    text-align: left;
+    text-align: center;
+}
+
+.first-table-row {
+    background-color: #f8c175;
 }
 
 .images {
@@ -224,7 +231,7 @@ footer {
     text-align: center;
     color: #523a28;
     padding: 1vw;
-    font-size: 0.1rem;
+    font-size: 1rem;
 }
 
 .testimonials q {
@@ -232,18 +239,16 @@ footer {
     color: #523a28;
     padding: 1vw;
     font-size: 1rem;
-
-/* Styling of section two, about page */
-.about-us {
-    padding: 1vw;
-} */ */
+}
 
 /* Styling of section three, about page */
 .contact-us-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 30vh;
+    height: auto;
 }
 
 .address-container {
@@ -292,7 +297,6 @@ footer {
 .cake-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 2vw;
 }
 
 .cake-types {
@@ -306,19 +310,30 @@ footer {
 
 .cake-types li {
     list-style-type: none;
+    line-height: 2rem;
 }
 
 
 /* Styling of reservation form in reserve page */
+form p {
+    text-align: center;
+}
+
 .your-details, .booking-details, .questionnaire{
     display: in-line-block;
-    width: 300px;
-    height: 320px;
+    width: 100%;
+    height: 300px;
     margin: 0 auto;
     padding: 1vw;
 }
+
 .questionnaire {
     text-align: center;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 2vh;
 }
 
 input[type="submit"] {
@@ -346,6 +361,13 @@ input[type="text"],
     border: 1px solid #523a28;
     float: left;
     width: 100%;
+    height: 10%
+}
+
+select {
+    border: 1px solid #523a28;
+    float: left;
+    width: 32%;
     height: 10%
 }
 
