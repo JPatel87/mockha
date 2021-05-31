@@ -287,7 +287,7 @@ footer>p {
 } */ */
 
 /* Styling of section three, about page */
-.contact-us {
+.contact-us-container {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -296,11 +296,10 @@ footer>p {
 
 .address-container {
     text-align: center;
-    width: 50%;
+    width: 100%;
     font-style: normal;
     color: #523a28;
-    padding-top: 7.5vw;
-    padding-bottom: 7.5vw;
+    padding-bottom: 3vh;
 }
 
 .address {
@@ -309,10 +308,10 @@ footer>p {
     font-size: 0.9rem;
 }
 
-.iframe-container {
+.iframe-container { 
+    height: 20vh;
+    width: 100%;
     position: relative;
-    height: auto;
-    width: 50%;
 }
 
 .iframe {
