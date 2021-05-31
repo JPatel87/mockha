@@ -160,7 +160,7 @@ p {
     font-size: 0.9rem;
     width: 100%;
     margin-top: 2vh;
-    table-layout: auto;
+    table-layout: fixed;
 }
 
 .table th {
@@ -172,11 +172,7 @@ p {
     text-align: center;
     text-transform: lowercase;
     color: #523a28;
-    line-height: 2rem;
-}
-
-.first-table-column {
-    text-align: center;
+    line-height: 1.5rem;
 }
 
 .first-table-row {
