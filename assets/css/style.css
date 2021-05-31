@@ -179,16 +179,18 @@ footer {
     padding: 1vw 3vw 1vw 1vw;
 }
 
-.logo-container-footer h1 {
+.logo-container-footer h2 {
     color: #523a28;
     text-transform: capitalize;
     font-size: 1.4rem;
+    text-align: center;
 }
 
-.logo-container-footer h2 {
+.logo-container-footer h3 {
     color: #73952e;
     text-transform: capitalize;
     font-size: 0.6rem;
+    text-align: center;
 }
 
 .links-container {
@@ -217,71 +219,19 @@ footer {
     position: relative;
 }
 
-.footer-h1 {
-    color: #523a28;
-    letter-spacing: 5px;
-    width: 100%;
-    text-align: center;
-    margin-top: 2vw;
-    text-transform: capitalize;
-    font-size: 1.5rem;
-}
-
-.footer-h2 {
-    color: #73952e;
-    margin: 0 2vw 2vw 2vw;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 1rem
-}
-
-footer address {
-    text-align: center;
-    font-style: normal;
-    color: #523a28;
-}
-
-address>span {
-    margin-left: 1vw;
-    margin-right: 1vw;
-}
-
-footer i {
-    font-size: 1.5rem;
-}
-
-footer ul {
-    text-align: center;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-}
-
-footer li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.footer-media {
-    color: #523a28;
-    margin: 2vw;
-    text-align: center;
-}
-
-footer>p {
-    text-align: center;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    font-size: 0.5rem;
-    color: #523a28;
-    text-transform: capitalize;
-} */
-
 /* Styling of section three, index page */
-.review {
+.testimonials {
     text-align: center;
     color: #523a28;
     padding: 1vw;
+    font-size: 0.1rem;
 }
+
+.testimonials q {
+    text-align: center;
+    color: #523a28;
+    padding: 1vw;
+    font-size: 1rem;
 
 /* Styling of section two, about page */
 .about-us {
