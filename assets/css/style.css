@@ -88,6 +88,16 @@ h4 {
     margin-bottom: 2vw;
 }
 
+a {
+    text-decoration: none;
+    color: #523a28;
+}
+
+p {
+    color: #523a28;
+    text-align: center;
+}
+
 /* Styling of header */
 .navigation-container {
     background-color: rgba(204,185,159,0.3);
