@@ -15,7 +15,7 @@ The website has been designed using the width size of a medium mobile screen dev
     * The navigation menu appears consistently on all four pages of the web site allowing users to easily navigate to the four different pages, namely Home, About, Menu and Reserve.
     * When the user hovers over the menu items the items are highlighted and when the user is on a particular page the menu item is underlined, this helps users to easily navigate across the website.
 
-![Logo and navigation](assets/readme_img/logo-navigation.png)
+![logo and navigation](assets/readme_img/logo-navigation.png)
 
 ### Footer 
 * Logo
@@ -31,25 +31,29 @@ The website has been designed using the width size of a medium mobile screen dev
 ![footer](assets/readme_img/footer.png)
 
 
-### Colour palette
+### Colour 
 * There are four main colours used throughout this website and the inspiration behind these came from the website, [canva](https://www.canva.com/colors/color-palette-generator/). The colour palette is called 
 afternoon craving and it consists of four colours, namely Brown (#523a28) Peach (#f8c175), Kelly Green (#73952e) and Khaki (#ccb99f).
+* The text colour is brown across all pages.
+* The header and footer have background colour of a shade of khaki.
+* The headings inside the pages have been given a background colour of a shade of peach or green.
 * In the body of the text, where a slightly transparent shade of one of the colour palette colours was required, the website [coding.tools](https://coding.tools/hex-to-rgba) was used to provide a RGBA colour alternative. 
 
-![Colour palette](assets/readme_img/colour-palette.png)
+![colour palette](assets/readme_img/colour-palette.png)
 
 ### Font 
 * There are two main fonts used in this website and they are Montserrat, semi-bold 600 for all headings and Raleway regular 400 for the body text. The font was sourced from [google fonts](https://fonts.google.com/). 
 * In circumstances where the preferred font fails to load, the fall back font specified is sans-serif.
 
-### Layout 
-* All four pages of the website are structured and displayed in a similar manner, as follows: 
+### Headings 
+* The heading-3 text that appears first after the logo is set against a peach background with brown uppercase text - this is to emphasis the purpose of the page 
+* The heading-4 texts are set against a green background and the letters of each word are capitalized to emphasis the start of a new section.
+* The heading-5 texts are set against a more transparent peach background and the letters of each word are also capitalized to depict a sub-heading and highlight key information.     
 
-    * Headings
-        * The heading-3 text that appears first after the logo is set against a peach background with brown uppercase text - this is to emphasis the purpose of the page 
-        * The heading-4 texts are set against a green background and the letters of each word are capitalized to emphasis the start of a new section.
-        * The heading-5 texts are set against a peach background and the letters of each word are also capitalized to depict a sub-heading and highlight key information. 
+![heading styles](assets/readme_img/heading-styles.png)
 
+    * Margins 
+        * The margin for the entire website is set 
 
 ## Features that are page specific
 
