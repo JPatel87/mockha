@@ -61,23 +61,15 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
 ## Features that are page specific
 
 ### Home page 
-* Slogan 
-    * The slogan, "Vegan Take On Coffee and Cake", is short yet catchy in order to help users remember the bakery. 
-* Hero image 
-    * The hero image summarizes the products sold at mockha; coffee and cake. This specific image was used to tempt the user into finding out more about the products. 
+* This page is primarily separated into three sections (not including header or footer):
+    * Section 1 - Slogan and Hero-image
+        * The slogan, "Vegan Take On Coffee and Cake", is short yet catchy in order to help users remember the bakery. 
+        * The hero image summarizes the products sold at mockha; coffee and cake. This specific image was used to tempt the user into finding out more about the products. 
+    * Section 2 - Cake and Coffee images
+        * Below the hero image there are two images of cake and coffee with clickable headings requesting users to explore the cake and coffee menus.
+    * Section 3 - Testimonials
+        * There are two testimonials given at the bottom of the home page to further convince users about visiting or making a reservation with Mockha.
 
-![heading styles](assets/readme_img/slogan-hero-image.png)
-
-* Cake and Coffee images
-    * Below the hero image there are two images of cake and coffee with clickable headings inviting users to explore the cake and coffee menus.
-
-![home-page-images](assets/readme_img/home-page-images.png)
-
-
-* Testimonials
-    * There are two testimonials given at the bottom of the home page to further convince users about visiting or making a reservation with Mockha.
-
-![testimonials](assets/readme_img/testimonials.png)
 
 ### About page 
 * This page is primarily separated into three sections (not including header or footer):
@@ -91,13 +83,15 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
         * Provides a tabulated form of the bakery's opening times on a daily basis, in order to provide clarity to the user.
 
 ### Menu page 
-* This page is primarily separated into three sections (not including header and footer)
+* This page is primarily separated into three sections (not including header and footer):
     * Section 1 - Page heading and image 
         * The purpose of this has been explained in an earlier section (see images section).
     * Section 2 - Cakes 
         * Provides a list of all cakes and their prices, so users can get a clear idea as to what cakes are being sold at Mockha and what prices they should expect.
     * Section 3 - Coffee 
         * Provides a list of coffees and their prices in a tabulated form, so users can get an idea of what to expect. 
+
+
 
 
 
