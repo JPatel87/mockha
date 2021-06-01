@@ -50,6 +50,9 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
 * The heading-4 texts are set against a green background and the letters of each word are capitalized to emphasis the start of a new section.
 * The heading-5 texts are set against a more transparent peach background and the letters of each word are also capitalized to depict a sub-heading and highlight key information.     
 
+### Images 
+* Besides the home page, which has two images, all other pages have a content-related image at the start of the page to tempt the user into reading on and each of those images have a heading to explain the purpose of the page.
+
 ![heading styles](assets/readme_img/heading-styles.png)
 
     * Margins 
@@ -57,7 +60,7 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
 
 ## Features that are page specific
 
-### Landing page 
+### Home page 
 * Slogan 
     * The slogan, "Vegan Take On Coffee and Cake", is short yet catchy in order to help users remember the bakery. 
 * Hero image 
@@ -73,5 +76,21 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
 
 * Testimonials
     * There are two testimonials given at the bottom of the home page to further convince users about visiting or making a reservation with Mockha.
+
+![testimonials](assets/readme_img/testimonials.png)
+
+### About page 
+* This page is primarily separated into three sections (not including header or footer):
+    * Section 1 - Page heading and image 
+        * The purpose of this has been explained in an earlier section (see images section)
+    * Section 2 - Welcome 
+        * Provides background information about the owners of the bakery and their ethos so users can develop an insight about the bakery.
+    * Section 1 - Contact us 
+        * Provides an address and map of the location of the bakery (map used in iframe taken from [google maps](https://www.google.co.uk/maps) so users can locate the bakery easily
+    * Section 2 - Opening times 
+        * Provides a tabulated form of the bakery's opening times on a daily basis, in order to provide clarity to the user.
+
+
+
 
 
