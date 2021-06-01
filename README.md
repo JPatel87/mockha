@@ -6,9 +6,8 @@ Mockha is a site targeting consumers who are willing to explore vegan cake and c
 
 The website has been designed using the width size of a medium mobile screen device, minimum width of 370px (mobile first design approach). The website incorporates reponsive font-sizes, widths and heights using units such as root m (rem), viewport height (vh) and viewport width (vw).
 
-* Wireframes 
-
-    * Below are the wireframe I created at the start of this project, in a mobile phone viewport:
+### Wireframes 
+* Below are the wireframes that I created at the start of this project, in a mobile phone viewport:
 
 Home page : 
 
@@ -120,7 +119,39 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
         * Users are prompted to ensure all mandatory fields are completed should they miss out any necessary fields. 
 
 ## Features for the future 
-* Add a order form allowing users to make an order from the bakery
+To add an order form allowing users to make an order from the bakery with photos of the items they can choose to order.
+
+## Testing 
+
+#### Interactive features
+The features of my code that require user interactivity are:
+* The navigation menu 
+    * I have checked through each page to ensure when hovered over, each item changes colour on each page. 
+    * I have checked that the current page is always underlined for each page. 
+    * All pages work fine.
+* The footer 
+    * I have checked that when the contact phone and email and social media links are hovered over they change colour.
+    * I have checked each icon on each page to ensure that they go to the correct location
+    * All pages work fine
+    * The call-to-action links to the Menu page from the home page
+    * I have checked that these both link to the right page 
+    * I have checked that once clicked, these links do not change their original colour, through the implentation of the 'visited' pseudo class.
+    * Both links work fine
+* The iframe map
+    * I have checked this map appears on each browser view and can be clicked on if the user wanted to review the map area closely.
+        * This works fine.
+* The reservation form in the reserve page 
+    * I have checked each field entry where a text or number input is required to ensure that an entry can be written inside and that there is sufficient space.
+    *  I have checked the date input field and the time select field to ensure that they display the correct information. 
+    * I have checked the radio buttons to ensure that only one is able to be selected. 
+    * I have reviewed the checkbox buttons to ensure more than one box can be selected at any time.
+    * I have also tried to deliberately leave out fields on submitting for the form to check that the form does not submit and highlights the fields that require completing.
+    * All fields work as they should.
+
+
+
+
+
 
 
 
