@@ -85,11 +85,19 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
         * The purpose of this has been explained in an earlier section (see images section)
     * Section 2 - Welcome 
         * Provides background information about the owners of the bakery and their ethos so users can develop an insight about the bakery.
-    * Section 1 - Contact us 
+    * Section 3 - Contact us 
         * Provides an address and map of the location of the bakery (map used in iframe taken from [google maps](https://www.google.co.uk/maps) so users can locate the bakery easily
-    * Section 2 - Opening times 
+    * Section 4 - Opening times 
         * Provides a tabulated form of the bakery's opening times on a daily basis, in order to provide clarity to the user.
 
+### Menu page 
+* This page is primarily separated into three sections (not including header and footer)
+    * Section 1 - Page heading and image 
+        * The purpose of this has been explained in an earlier section (see images section).
+    * Section 2 - Cakes 
+        * Provides a list of all cakes and their prices, so users can get a clear idea as to what cakes are being sold at Mockha and what prices they should expect.
+    * Section 3 - Coffee 
+        * Provides a list of coffees and their prices in a tabulated form, so users can get an idea of what to expect. 
 
 
 
