@@ -191,17 +191,26 @@ Index page - html code validation
 
 CSS validator
 
-![css-validator](assets/readme_img/css-validator.png)
-
+![css-validator](assets/readme_img/css-validator-check.png)
 
 
 ## Deployment 
 
 This project was deployed to Github pages, as per the below steps:
 
-1. 
+1. Ensure most recent code is pushed to Github from Gitpod workspace.
+2. Login to Github. 
+2. Open up your project repository. 
+3. Click on the 'Settings' option.
+4. Scroll down to 'Github pages'.
+5. Under 'Source' click into first box (displayed as 'none') and select a branch called 'Main'.
+6. Click 'Save' where you be taken back to the 'Settings' page.
+7. Scroll down to 'Github pages', where it prompts you to check out "Pages settings' - click this prompt.
+8. A message will be displayed, within a green container, at the top of the page informing you the address where the site has been published.
 
-The live link to the project can be found below:
+The live link to this project can be found at:
+
+https://jpatel87.github.io/mockha/
 
 ## Credit
 
@@ -209,9 +218,9 @@ The live link to the project can be found below:
 * Font icons were taken from the website [Fontawesome](https://fontawesome.com/)
 * Images were taken from either one of the following free image websites [Pexels](https://www.pexels.com/) or [Unsplash](https://unsplash.com/) 
 * Eco friendly content was inspired from the website [Country&TownHouse](https://www.countryandtownhouse.co.uk/food-and-drink/sustainable-cafes-london/)
-* Code institute modules for inspiration on coding to use 
-* W3 schools and slack overflow for general guidance. 
+* Code institute modules were used throughout for inspiration on coding techniques.
+* W3 schools and slack overflow were used for general guidance and troubleshooting. 
 
 ## Acknowledgments 
 
-This is my first attempt at building a website and I would like to thank Code institute Tutor and Student Support who have been fantastic at responding to all of my questions aswell as the students on slack. I would also like to offer my thanks to my Mentor (Antonija Simic) who has guided me throughout this project.
+This is my first attempt at building a website and I would like to thank Code institute Tutor and Student Support who have been fantastic at responding to all of my questions as well as the students on slack. I would also like to offer my thanks to my Mentor (Antonija Simic) who has guided me throughout this project.
