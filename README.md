@@ -4,7 +4,9 @@ Mockha is a site targeting consumers who are willing to explore vegan cake and c
 
 ## Design 
 
-The website has been designed using the width size of a medium mobile screen device, minimum width of 370px (mobile first design approach). The website incorporates reponsive font-sizes, widths and heights using units such as root m (rem), viewport height (vh) and viewport width (vw).
+The website has been designed using the width size of a medium mobile screen device, minimum width of 370px (mobile first design approach), however it is reponsive to small phones, tablets and laptops viewports. The website incorporates reponsive font-sizes, widths and heights using units such as root m (rem), viewport height (vh) and viewport width (vw). Below is an image of the website on different viewports. 
+
+[responsive-layouts](assets/readme_img/responsive-layouts.png)
 
 ### Wireframes 
 * Below are the wireframes that I created at the start of this project, in a mobile phone viewport:
