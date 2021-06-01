@@ -59,12 +59,19 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
 
 ### Landing page 
 * Slogan 
-    * The slogan is short yet catchy in order to help users remember the bakery. 
+    * The slogan, "Vegan Take On Coffee and Cake", is short yet catchy in order to help users remember the bakery. 
 * Hero image 
     * The hero image summarizes the products sold at mockha; coffee and cake. This specific image was used to tempt the user into finding out more about the products. 
+
+![heading styles](assets/readme_img/slogan-hero-image.png)
+
 * Cake and Coffee images
     * Below the hero image there are two images of cake and coffee with clickable headings inviting users to explore the cake and coffee menus.
-* Review 
-    * There is a review given at the bottom of the home page in order to further convince users about visiting or making a reservation with Mockha.
+
+![home-page-images](assets/readme_img/home-page-images.png)
+
+
+* Testimonials
+    * There are two testimonials given at the bottom of the home page to further convince users about visiting or making a reservation with Mockha.
 
 
