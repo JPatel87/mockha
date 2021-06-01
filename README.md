@@ -6,6 +6,26 @@ Mockha is a site targeting consumers who are willing to explore vegan cake and c
 
 The website has been designed using the width size of a medium mobile screen device, minimum width of 370px (mobile first design approach). The website incorporates reponsive font-sizes, widths and heights using units such as root m (rem), viewport height (vh) and viewport width (vw).
 
+* Wireframes 
+
+    * Below are the wireframe I created at the start of this project, in a mobile phone viewport:
+
+Home page : 
+
+![home-page-wireframe](assets/readme_img/home-page-wireframe.png)
+
+About page:
+
+![about-page-wireframe](assets/readme_img/about-page-wireframe.png)
+
+Menu page:
+
+![menu-page-wireframe](assets/readme_img/menu-page-wireframe.png)
+
+Reserve page:
+
+![reserve-page-wireframe](assets/readme_img/reserve-page-wireframe.png)
+
 ## Features common to all pages
 
 ### Header
@@ -97,6 +117,12 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
         * The purpose of this has been explained in an earlier section (see images section).
     * Section 2 - Reservation form 
         * Provides a means as to which users can make a reservation at the bakery to ensure that the bakery is well-informed about the customers requirements.
+        * Users are prompted to ensure all mandatory fields are completed should they miss out any necessary fields. 
+
+## Features for the future 
+* Add a order form allowing users to make an order from the bakery
+
+
 
 
 
