@@ -91,6 +91,17 @@ afternoon craving and it consists of four colours, namely Brown (#523a28) Peach 
     * Section 3 - Coffee 
         * Provides a list of coffees and their prices in a tabulated form, so users can get an idea of what to expect. 
 
+### Reserve page 
+* This page is primarily separated into two sections(not including header and footer):
+    * Section 1 -  Page heading and image 
+        * The purpose of this has been explained in an earlier section (see images section).
+    * Section 2 - Reservation form 
+        * Provides a means as to which users can make a reservation at the bakery to ensure that the bakery is well-informed about the customers requirements.
+
+
+
+
+
 
 
 
