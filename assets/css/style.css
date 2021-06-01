@@ -55,7 +55,7 @@ h5 {
     text-transform: uppercase;
     color: #523a28;
     width: 100%;
-    background-color: rgba(248, 193, 117, 0.8);
+    background-color: #f8c175;
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-size: 0.9rem;
@@ -81,7 +81,7 @@ h5 {
     text-transform: capitalize;
     color: #523a28;
     width: 100%;
-    background-color: #f8c175;
+    background-color: rgba(248, 193, 117, 0.8);
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-size: 0.8rem;
@@ -283,7 +283,7 @@ address {
 }
 
 .first-table-row {
-    background-color: #f8c175;
+    background-color: rgba(248, 193, 117, 0.8);
 }
 
 /* Styling of cake section, menu page */
