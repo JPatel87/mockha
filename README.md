@@ -123,7 +123,7 @@ To add an order form allowing users to make an order from the bakery with photos
 
 ## Testing 
 
-#### Interactive feature testing
+### Interactive feature testing
 The features of my code that require user interactivity are:
 * The navigation menu 
     * I have checked through each page to ensure when hovered over, each item changes colour on each page. 
@@ -148,15 +148,21 @@ The features of my code that require user interactivity are:
     * I have also tried to deliberately leave out fields on submitting for the form to check that the form does not submit and highlights the fields that require completing.
     * All fields work as they should.
 
-#### Bugs encountered 
+### Bugs and problems encountered 
 * Iframe map
     * I had a paragraph statement to display only if the iframe was not supported by a browser, however, the paragraph element was always appearing below the iframe, therefore in order to make it visible, i was advised by Codeinstitute Tutor Support to perhaps consider using z-index. 
     * After a few trial attempts to try and get the positioning right, this issue was resolved.
     * See below the trials that I carried out to get the positioning right and a final screenshot of the actual iframe map. 
 
+Iframe trial code:
+
 ![iframe psitioning trial code](assets/readme_img/iframe-positioning-trial-code.png)
 
+Iframe trial image:
+
 ![iframe positioning trial image](assets/readme_img/iframe-positioning-trial-image.png)
+
+Iframe correct layout:
 
 ![iframe correct layout ](assets/readme_img/iframe-correct-layout.png)
 
@@ -174,3 +180,23 @@ The features of my code that require user interactivity are:
     * I was unsure about how this would be done for phone and email, although knew it was possible from viewing other web pages. To help with this i used the following websites [Gaintap](https://www.gaintap.com/archived/clickable-website-phone-number-and-call-tracking-guide) and [Wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML).
 * Positioning header, footer, forms and cake lists
     * I found it a struggle to position elements side by side using only in-line block elements as the elements kept on moving out of position if the viewport was enlarged, therefore I looked up another method and came across the website [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) which was fantastic at explaining the principles of flex box, which I have used to position the above components of my web page. 
+
+### Validator testing 
+    * HTML and CSS code relayed back no issues 
+
+    Home page - html code validation
+
+    ![index-html-html-code-validation](assets/readme_img/index-html-code-validation.png)
+
+    ![about-html-code-validation](assets/readme_img/index-html-code-validation.png)
+
+    ![menu-html-code-validation](assets/readme_img/menu-html-code-validation.png)
+
+    ![index.html-html code validation](assets/readme_img/reserve-html-code-validation.png)
+
+
+assets/readme_img/about-html-code-validation.png
+        assets/readme_img/index-html-code-validation.png
+        assets/readme_img/menu-html code validation.png
+        assets/readme_img/reserve-html-code-validation.png
+
