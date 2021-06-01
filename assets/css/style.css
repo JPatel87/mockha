@@ -72,8 +72,8 @@ h5 {
     padding-top: 2vw;
     padding-bottom: 2vw;
     font-size: 0.8rem;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .page-h5 {
@@ -82,11 +82,9 @@ h5 {
     color: #523a28;
     width: 100%;
     background-color: rgba(248, 193, 117, 0.8);
-    padding-top: 2vw;
-    padding-bottom: 2vw;
     font-size: 0.8rem;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 a:visited {
@@ -262,9 +260,9 @@ address {
 /* Styling of opening times section, about page and coffee table, menu page */
 
 .table {
-    font-size: 0.9rem;
+    font-size: 1rem;
     width: 100%;
-    margin-top: 2vh;
+    margin-top: 1vh;
     table-layout: fixed;
     text-align: center;
 }
@@ -304,13 +302,11 @@ address {
     padding: 0 1vw 1vw 1vw;
     color: #523a28;
     text-transform: lowercase;
+    font-size: 1rem;
 }
 
 .cake-types li {
     font-size: 0.9rem;
-}
-
-.cake-types li {
     list-style-type: none;
     line-height: 2rem;
 }
@@ -451,3 +447,180 @@ input[type="submit"] {
         line-height: 1rem;
     }
 } 
+
+/* Media query for tablet devices */
+
+@media screen and (min-width:800px) {
+    .logo-container-header h1 {
+        font-size: 3rem;
+    }
+
+    .logo-container-header h2 {
+        font-size: 1.3rem;
+    }
+
+    .list-item a {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .page-h3 {
+        font-size: 1.2rem;
+    }
+
+    .page-h4 {
+        font-size: 1.1rem;
+    }
+
+    .page-h5 {
+        font-size: 1rem;
+        padding-top: 1.2vw;
+        padding-bottom: 1.2vw;
+    }
+
+    .cake-types li {
+        font-size: 1rem;
+    }
+
+    .table td, tr {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    address {
+        font-size: 0.9em;
+    }
+
+    .iframe-container {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .table td, tr {
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+    .logo-container-footer h2 {
+        font-size: 1.9rem;
+    }
+    
+    .logo-container-footer h3 {
+        font-size: 0.8rem;
+    }
+
+    .footer-icon {
+        color: #523a28;
+        font-size: 1.8rem;
+    }
+
+    .copyright-container p {
+        font-size: 0.8rem;
+    }
+
+    input[type="submit"] {
+        text-transform: capitalize;
+        font-size: 1rem;
+        border-radius: 3rem;
+        padding: 1vw 2vw;
+    }
+
+    label {
+        color: #523a28;
+        font-size: 0.9rem;
+    }
+}
+
+/* Media query for laptop devices */
+
+@media screen and (min-width:1000px) {
+    .logo-container-header h1 {
+        font-size: 4rem;
+    }
+
+    .logo-container-header h2 {
+        font-size: 1.7rem;
+    }
+
+    .list-item a {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .page-h3 {
+        font-size: 1.3rem;
+        padding-top: 0.8vh;
+        padding-bottom: 0.8vh;
+    }
+
+    .page-h4 {
+        font-size: 1.2rem;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+
+    .page-h5 {
+        font-size: 1.0rem;
+        padding-top: 1.2vw;
+        padding-bottom: 1.2vw;
+    }
+
+    .cake-types li {
+        font-size: 1.5rem;
+    }
+
+    .table td, tr {
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+
+    address {
+        font-size: 1.2rem;
+    }
+
+    .iframe-container {
+        height: 40vh;
+        width: 100%;
+    }
+
+    .table td, tr {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .logo-container-footer h2 {
+        font-size: 2.7rem;
+    }
+    
+    .logo-container-footer h3 {
+        font-size: 1.3rem;
+    }
+
+    .footer-icon {
+        color: #523a28;
+        font-size: 2rem;
+    }
+
+    .copyright-container p {
+        font-size: 1rem;
+    }
+
+    input[type="submit"] {
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        border-radius: 4rem;
+        padding: 1vw 2vw;
+    }
+
+    label {
+        color: #523a28;
+        font-size: 1.1rem;
+    }
+    .cake-types {
+        font-size: 1.5rem;
+    }
+}

@@ -172,7 +172,7 @@ Iframe correct layout:
 
 * Footer positioning 
     * Upon review of my website with my Codeinstitute Mentor, it was noticed that my footer was not being positioned permanently at the bottom of the page.
-    * Upon reviewing a few webpages and youtube links, I came across a youtube video by [Dani Krossing Keep the Footer at the Bottom](https://youtu.be/qlCIXXhSX6Y) which I followed to keep my footer at the bottom of the page. 
+    * Upon reviewing a few webpages and youtube links, I came across a youtube video by [Dani Krossing Keep the Footer at the Bottom](https://youtu.be/qlCIXXhSX6Y) which I followed to keep my footer at the bottom of the page.
 
 * Phone and Email icons to instigate call or email 
     * I wanted to keep my footer simple by only having icons at the bottom for contact links and social media. 
@@ -182,21 +182,41 @@ Iframe correct layout:
     * I found it a struggle to position elements side by side using only in-line block elements as the elements kept on moving out of position if the viewport was enlarged, therefore I looked up another method and came across the website [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) which was fantastic at explaining the principles of flex box, which I have used to position the above components of my web page. 
 
 ### Validator testing 
-    * HTML and CSS code relayed back no issues 
+* HTML and CSS code relayed back no issues.
 
-    Home page - html code validation
+Home page - html code validation
 
-    ![index-html-html-code-validation](assets/readme_img/index-html-code-validation.png)
+![index-html-html-code-validation](assets/readme_img/index-html-code-validation.png)
 
-    ![about-html-code-validation](assets/readme_img/index-html-code-validation.png)
+About page - html code validation 
 
-    ![menu-html-code-validation](assets/readme_img/menu-html-code-validation.png)
+![about-html-code-validation](assets/readme_img/index-html-code-validation.png)
 
-    ![index.html-html code validation](assets/readme_img/reserve-html-code-validation.png)
+Menu page - html code validation 
 
+![menu-html-code-validation](assets/readme_img/menu-html-code-validation.png)
 
-assets/readme_img/about-html-code-validation.png
-        assets/readme_img/index-html-code-validation.png
-        assets/readme_img/menu-html code validation.png
-        assets/readme_img/reserve-html-code-validation.png
+Index page - html code validation
+    
+![index.html-html code validation](assets/readme_img/reserve-html-code-validation.png)
 
+## Deployment 
+
+This project was deployed to Github pages, as per the below steps:
+
+1. 
+
+The live link to the project can be found below:
+
+## Credit
+
+* Guidance for the prices for coffees and the types of coffees was taken from the website [fastfoodmenuprices.com](https://www.fastfoodmenuprices.com/uk/starbucks-menu-prices-uk/)
+* Font icons were taken from the website [Fontawesome](https://fontawesome.com/)
+* Images were taken from either one of the following free image websites [Pexels](https://www.pexels.com/) or [Unsplash](https://unsplash.com/) 
+* Eco friendly content was inspired from the website [Country&TownHouse](https://www.countryandtownhouse.co.uk/food-and-drink/sustainable-cafes-london/)
+* Code institute modules for inspiration on coding to use 
+* W3 schools and slack overflow for general guidance. 
+
+## Acknowledgments 
+
+This is my first attempt at building a website and I would like to thank Code institute Tutor and Student Support who have been fantastic at responding to all of my questions aswell as the students on slack. I would also like to offer my thanks to my Mentor (Antonija Simic) who has guided me throughout this project.
