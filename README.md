@@ -123,7 +123,7 @@ To add an order form allowing users to make an order from the bakery with photos
 
 ## Testing 
 
-#### Interactive features
+#### Interactive feature testing
 The features of my code that require user interactivity are:
 * The navigation menu 
     * I have checked through each page to ensure when hovered over, each item changes colour on each page. 
@@ -148,19 +148,29 @@ The features of my code that require user interactivity are:
     * I have also tried to deliberately leave out fields on submitting for the form to check that the form does not submit and highlights the fields that require completing.
     * All fields work as they should.
 
+#### Bugs encountered 
+* Iframe map
+    * I had a paragraph statement to display only if the iframe was not supported by a browser, however, the paragraph element was always appearing below the iframe, therefore in order to make it visible, i was advised by Codeinstitute Tutor Support to perhaps consider using z-index. 
+    * After a few trial attempts to try and get the positioning right, this issue was resolved.
+    * See below the trials that I carried out to get the positioning right and a final screenshot of the actual iframe map. 
 
+![iframe psitioning trial code](assets/readme_img/iframe-positioning-trial-code.png)
 
+![iframe positioning trial image](assets/readme_img/iframe-positioning-trial-image.png)
 
+![iframe correct layout ](assets/readme_img/iframe-correct-layout.png)
 
+* Reservation Form layout 
+    * I initially used block elements to create the form, however, when upon inspecting the form on different viewport widths, the form components were not staying in place.
+    * I decided to use flex box instead as I had used this before to create both the header and footer elements and it worked fine.
 
+* Footer positioning 
+    * Upon review of my website with my Codeinstitute Mentor, it was noticed that my footer was not being positioned permanently at the bottom of the page.
+    * Upon reviewing a few webpages and youtube links, I came across a youtube video by [Dani Krossing Keep the Footer at the Bottom](https://youtu.be/qlCIXXhSX6Y) which I followed to keep my footer at the bottom of the page. 
 
-
-
-
-
-
-
-
-
-
-
+* Phone and Email icons to instigate call or email 
+    * I wanted to keep my footer simple by only having icons at the bottom for contact links and social media. 
+    * For social media links, I referred back to the Love Running Project by [Codeinstitute](https://codeinstitute.net/5-day-coding-challenge/?gclsrc=aw.ds&&hsa_net=adwords&hsa_tgt=kwd-71743597220113:loc-188&hsa_ad=&hsa_acc=8983321581&hsa_grp=1147890658588794&hsa_mt=e&hsa_cam=1578649861&hsa_kw=code%20institute&hsa_ver=3&hsa_src=o&msclkid=6627ac8253bf1cd6e563cc3793fc117d&utm_source=bing&utm_medium=cpc&utm_campaign=a%26c_SEA_UK_BR_Brand_Code_Institute&utm_term=code%20institute&utm_content=exa_Brand) 
+    * I was unsure about how this would be done for phone and email, although knew it was possible from viewing other web pages. To help with this i used the following websites [Gaintap](https://www.gaintap.com/archived/clickable-website-phone-number-and-call-tracking-guide) and [Wikihow](https://www.wikihow.com/Create-an-Email-Link-in-HTML).
+* Positioning header, footer, forms and cake lists
+    * I found it a struggle to position elements side by side using only in-line block elements as the elements kept on moving out of position if the viewport was enlarged, therefore I looked up another method and came across the website [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) which was fantastic at explaining the principles of flex box, which I have used to position the above components of my web page. 
